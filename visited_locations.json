@@ -10,6 +10,7 @@
         "type": "Point"
       },
       "properties": {
+        "category": "Pleasure",
         "date": "2025-08-02T19:35:56Z",
         "google_maps_url": "http://maps.google.com/?cid=9544977465231796123",
         "location": {
@@ -320,8 +321,7 @@
           "address": "Bližná 36, 382 23 Černá v Pošumaví-Horní Planá, Czechia",
           "country_code": "CZ",
           "name": "Relax Vila Lipno"
-        },
-        "category": "Pleasure"
+        }
       },
       "type": "Feature"
     },
@@ -359,8 +359,7 @@
           "address": "Urbiztondo Rd, San Juan, La Union, Philippines",
           "country_code": "PH",
           "name": "Lokal Home"
-        },
-        "category": "Pleasure"
+        }
       },
       "type": "Feature"
     },
@@ -373,14 +372,14 @@
         "type": "Point"
       },
       "properties": {
+        "category": "Business",
         "date": "2024-10-21T09:26:01Z",
         "google_maps_url": "http://maps.google.com/?cid=7797116758419599346",
         "location": {
           "address": "Sonnenallee 6, 12043 Berlin, Germany",
           "country_code": "DE",
           "name": "Grand Hostel Berlin Urban"
-        },
-        "category": "Business"
+        }        
       },
       "type": "Feature"
     },
@@ -399,8 +398,7 @@
           "address": "Jahnstraße 33A, 40215 Düsseldorf, Germany",
           "country_code": "DE",
           "name": "Hotel Petersburg GmbH"
-        },
-        "category": "Pleasure"
+        }
       },
       "type": "Feature"
     },
@@ -413,14 +411,14 @@
         "type": "Point"
       },
       "properties": {
+        "category": "Education",
         "date": "2024-10-21T00:13:09Z",
         "google_maps_url": "http://maps.google.com/?cid=15660447374667179255",
         "location": {
           "address": "High St, Oxford OX1 4AW, United Kingdom",
           "country_code": "GB",
           "name": "The Queen's College"
-        },
-        "category": "Education"
+        }        
       },
       "type": "Feature"
     },
@@ -439,8 +437,7 @@
           "address": "South Rd, Durham DH1 3LG, United Kingdom",
           "country_code": "GB",
           "name": "Grey College, Durham University"
-        },
-        "category": "Education"
+        }
       },
       "type": "Feature"
     },
@@ -459,8 +456,7 @@
           "address": "Parkveien 78, 0254 Oslo, Norway",
           "country_code": "NO",
           "name": "Oslo Guldsmeden Hotels"
-        },
-        "category": "Business"
+        }
       },
       "type": "Feature"
     },
@@ -479,8 +475,7 @@
           "address": "In den Kirschen 30, 80992 München, Germany",
           "country_code": "DE",
           "name": "The Tent Munich"
-        },
-        "category": "Pleasure"
+        }
       },
       "type": "Feature"
     },
@@ -499,8 +494,7 @@
           "address": "3, 9-10 Sala Daeng Rd, Si Lom, Bang Rak, Bangkok 10500, Thailand",
           "country_code": "TH",
           "name": "The Cube Hostel Silom"
-        },
-        "category": "Pleasure"
+        }
       },
       "type": "Feature"
     },
@@ -519,8 +513,7 @@
           "address": "The Diamond, Co. Donegal, Ireland",
           "country_code": "IE",
           "name": "The Central Hotel Donegal"
-        },
-        "category": "Pleasure"
+        }
       },
       "type": "Feature"
     },
@@ -539,8 +532,7 @@
           "address": "100 Castle St, Belfast BT1 1HF, United Kingdom",
           "country_code": "GB",
           "name": "ibis Belfast City Centre"
-        },
-        "category": "Pleasure"
+        }
       },
       "type": "Feature"
     },
@@ -559,8 +551,7 @@
           "address": "Drumbeg Farm, Gartness Rd, Drymen, Glasgow G63 0DW, United Kingdom",
           "country_code": "GB",
           "name": "Arcadia Glamping Cabins"
-        },
-        "category": "Pleasure"
+        }
       },
       "type": "Feature"
     },
@@ -579,8 +570,7 @@
           "address": "Sallochy Bay, Rowardennan, Glasgow G63 0AW, United Kingdom",
           "country_code": "GB",
           "name": "Sallochy Campsite"
-        },
-        "category": "Pleasure"
+        }
       },
       "type": "Feature"
     },
@@ -599,8 +589,7 @@
           "address": "25 Grampian Rd, Aviemore PH22 1PR, United Kingdom",
           "country_code": "GB",
           "name": "Aviemore Youth Hostel"
-        },
-        "category": "Pleasure"
+        }
       },
       "type": "Feature"
     },
@@ -619,8 +608,7 @@
           "address": "199, 136 Choet Wutthakat 9, Don Mueang, Bangkok 10210, Thailand",
           "country_code": "TH",
           "name": "Sloth Hostel DonMueang Airport"
-        },
-        "category": "Pleasure"
+        }
       },
       "type": "Feature"
     },
@@ -639,8 +627,7 @@
           "address": "200 Joo Chiat Rd, #02-02, Singapore 427471",
           "country_code": "SG",
           "name": "Betel Box Asia Pte. Ltd."
-        },
-        "category": "Pleasure"
+        }
       },
       "type": "Feature"
     },
@@ -659,8 +646,7 @@
           "address": "202 Hồ Nghinh, Phước Mỹ, Sơn Trà, Đà Nẵng 550000, Vietnam",
           "country_code": "VN",
           "name": "The Memory - Danang"
-        },
-        "category": "Pleasure"
+        }
       },
       "type": "Feature"
     },
@@ -679,8 +665,7 @@
           "address": "397 Cửa Đại, Cẩm Châu, Hội An, Quảng Nam 560000, Vietnam",
           "country_code": "VN",
           "name": "Bed Station Hostel & Pool Bar Hội An"
-        },
-        "category": "Pleasure"
+        }
       },
       "type": "Feature"
     },
@@ -711,13 +696,12 @@
         "type": "Point"
       },
       "properties": {
-        "date": "2024-09-29T15:38:35Z",
+        "category": "Family Holiday",
         "google_maps_url": "http://maps.google.com/?cid=2167953581611924726",
         "location": {
           "address": "Stawley Wood Farm, Wellington, United Kingdom",
           "name": "Stawley Wood Farm"
-        },
-        "category": "Family Holiday"
+        }        
       },
       "type": "Feature"
     },
@@ -736,8 +720,7 @@
           "address": "7 Dock St, London E1 8LL, United Kingdom",
           "country_code": "GB",
           "name": "Wombat's City Hostel London"
-        },
-        "category": "Business"
+        }
       },
       "type": "Feature"
     }
