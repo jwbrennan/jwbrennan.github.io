@@ -194,65 +194,40 @@
         <!-- Leaflet JS -->
         <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
         <script>
-            // Initialize the map
-            var map = L.map('map').setView([0, 0], 2);
+        // Initialize the map
+        var map = L.map('map').setView([0, 0], 2);
 
-            // Add OpenStreetMap tiles
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-            }).addTo(map);
+        // Add OpenStreetMap tiles
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
 
-            // Fetch and process GeoJSON
-            fetch('visited_locations.json')
-                .then(response => {
-                    if (!response.ok) throw new Error(`Failed to load JSON: ${response.statusText}`);
-                    return response.json();
-                })
-                .then(data => {
-                    console.log('Loaded JSON:', data);
-                    if (!data.type || data.type !== 'FeatureCollection' || !data.features || !Array.isArray(data.features)) {
-                        console.error('Invalid GeoJSON: Expected FeatureCollection with features array');
-                        return;
+        // Fetch and process GeoJSON
+        fetch('visited_locations.json')
+            .then(response => response.json())
+            .then(data => {
+                // Add GeoJSON layer
+                var geojsonLayer = L.geoJSON(data, {
+                    pointToLayer: function(feature, latlng) {
+                        return L.marker(latlng);
+                    },
+                    onEachFeature: function(feature, layer) {
+                        const props = feature.properties;
+                        const loc = props.location;
+                        const date = new Date(props.date).toLocaleDateString();
+                        const popupContent = `
+                            <b>${loc.name}</b><br>
+                            Address: ${loc.address}<br>
+                            Country: ${loc.country_code}<br>
+                            <a href="${props.google_maps_url}" target="_blank">View on Google Maps</a>
+                        `;
+                        layer.bindPopup(popupContent);
                     }
-                    if (data.features.length === 0) {
-                        console.error('No features in GeoJSON');
-                        return;
-                    }
+                }).addTo(map);
 
-                    // Add GeoJSON layer
-                    var geojsonLayer = L.geoJSON(data, {
-                        pointToLayer: function(feature, latlng) {
-                            // Validate coordinates
-                            if (!latlng || isNaN(latlng.lat) || isNaN(latlng.lng) || (latlng.lat === 0 && latlng.lng === 0)) {
-                                console.warn('Skipping feature with invalid coordinates:', feature.geometry.coordinates);
-                                return null;
-                            }
-                            return L.marker(latlng);
-                        },
-                        onEachFeature: function(feature, layer) {
-                            if (!layer) return;
-                            const props = feature.properties || {};
-                            const loc = props.location || {};
-                            const date = props.date ? new Date(props.date).toLocaleDateString() : 'N/A';
-                            const popupContent = `
-                                <b>${loc.name || 'Unknown'}</b><br>
-                                Address: ${loc.address || 'N/A'}<br>
-                                Country: ${loc.country_code || 'N/A'}<br>
-                                Visited: ${date}<br>
-                                ${props.google_maps_url ? `<a href="${props.google_maps_url}" target="_blank">View on Google Maps</a>` : ''}
-                            `;
-                            layer.bindPopup(popupContent);
-                        }
-                    }).addTo(map);
-
-                    // Fit map to bounds
-                    if (geojsonLayer.getLayers().length > 0) {
-                        map.fitBounds(geojsonLayer.getBounds(), { padding: [50, 50] });
-                    } else {
-                        console.error('No valid markers added');
-                    }
-                })
-                .catch(error => console.error('Error:', error));
+                // Fit map to bounds
+                map.fitBounds(geojsonLayer.getBounds(), { padding: [50, 50] });
+            });
         </script>
       </section>
 
