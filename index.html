@@ -202,6 +202,15 @@
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(map);
 
+        // Define category colors
+        const categoryColors = {
+            'Business': '#1f77b4', // Blue
+            'Pleasure': '#ff7f0e', // Orange
+            'Family Holiday': '#2ca02c', // Green
+            'Education': '#d62728', // Red
+            'default': '#9467bd'   // Purple for unknown categories
+        };
+
         // Fetch and process GeoJSON
         fetch('visited_locations.json')
             .then(response => response.json())
@@ -209,7 +218,17 @@
                 // Add GeoJSON layer
                 var geojsonLayer = L.geoJSON(data, {
                     pointToLayer: function(feature, latlng) {
-                        return L.marker(latlng);
+                        const category = feature.properties.category || 'default';
+                        const color = categoryColors[category] || categoryColors['default'];
+                        // Create a divIcon with a colored circle
+                        return L.marker(latlng, {
+                            icon: L.divIcon({
+                                className: 'custom-marker',
+                                html: `<div style="background-color:${color};width:12px;height:12px;border-radius:50%;border:2px solid #fff;"></div>`,
+                                iconSize: [12, 12],
+                                iconAnchor: [6, 6]
+                            })
+                        });
                     },
                     onEachFeature: function(feature, layer) {
                         const props = feature.properties;
@@ -219,6 +238,8 @@
                             <b>${loc.name}</b><br>
                             Address: ${loc.address}<br>
                             Country: ${loc.country_code}<br>
+                            Category: ${props.category || 'N/A'}<br>
+                            Visited: ${date}<br>
                             <a href="${props.google_maps_url}" target="_blank">View on Google Maps</a>
                         `;
                         layer.bindPopup(popupContent);
