@@ -479,24 +479,6 @@
     {
       "geometry": {
         "coordinates": [
-          10.5634846,
-          59.8897463
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2024-10-16T14:50:24Z",
-        "google_maps_url": "http://maps.google.com/?cid=16060545103431968084",
-        "location": {
-          "address": "Veritasveien 1, 1363 Høvik, Norway",
-          "name": "DNV (Det norske Veritas)"
-        }
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           10.7192354,
           59.9122944
         ],
