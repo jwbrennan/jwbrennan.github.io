@@ -181,10 +181,10 @@
                 </div>
                 <div class="gallery-item">
                     <img src="WSRP.png" alt="Mentor Group" class="media-image">
-                    <p class="caption">My mentee group at WSRP 2025.</p>
+                    <p class="caption">My mentee group at WSRP 2025 at Bentley University, MA.</p>
                 </div>
         </div>
-        
+      </section>
         
       <section id="travel">
         <h2>Travel</h2>
@@ -206,7 +206,7 @@
         const categoryColors = {
             'Business': '#1f77b4', // Blue
             'Pleasure': '#ff7f0e', // Orange
-            'Family Holiday': '#2ca02c', // Green
+            'FamilyHoliday': '#2ca02c', // Green
             'Education': '#d62728', // Red
             'default': '#9467bd'   // Purple for unknown categories
         };
@@ -233,13 +233,11 @@
                     onEachFeature: function(feature, layer) {
                         const props = feature.properties;
                         const loc = props.location;
-                        const date = new Date(props.date).toLocaleDateString();
                         const popupContent = `
                             <b>${loc.name}</b><br>
                             Address: ${loc.address}<br>
                             Country: ${loc.country_code}<br>
                             Category: ${props.category || 'N/A'}<br>
-                            Visited: ${date}<br>
                             <a href="${props.google_maps_url}" target="_blank">View on Google Maps</a>
                         `;
                         layer.bindPopup(popupContent);
