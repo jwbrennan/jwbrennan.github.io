@@ -4,19 +4,176 @@
     {
       "geometry": {
         "coordinates": [
-          14.5346101,
-          61.0025564
+          14.60468112597482, 120.98410924864977
         ],
         "type": "Point"
       },
       "properties": {
         "category": "Pleasure",
-        "google_maps_url": "http://maps.google.com/?cid=9544977465231796123",
-        "location": {
-          "address": "Fridhemsgatan 15, 792 30 Mora, Sweden",
-          "country_code": "SE",
-          "name": "Hotel Fridhemsgatan"
-        }
+        "date": "2023-08-13",
+        "Comment": "Condo in Manila"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          15.423068455472468, 120.93774234190076
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "category": "Pleasure",
+        "date": "2023-08-14",
+        "Comment": "Friend's family in Santa Rosa."
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.3219588,
+          16.6555869
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "category": "Pleasure",
+        "date": "2023-08-16",
+        "Comment": "Surfing in San Fernando."
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          103.9002491,
+          1.3122251
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "category": "Pleasure",
+        "date": "2023-08-01",
+        "Comment": "One night in Singapore."
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          108.3419535,
+          15.8803125
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "category": "Pleasure",
+        "date": "2023-08-08",
+        "Comment": "Two nights in Hoi-An."
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          108.2431021,
+          16.0669954
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "category": "Pleasure",
+        "date": "2023-08-10",
+        "Comment": "Two nights in Da Nang."
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          100.5364564,
+          13.7277655
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "category": "Pleasure",
+        "date": "2023-08-04",
+        "Comment": "Three nights in Bangkok."
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          100.5977960,
+          13.9167495
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "category": "Pleasure",
+        "date": "2023-08-07",
+        "Comment": "Before flight to Vietnam."
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          64.14300108220348, -21.9687259031559
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "category": "Pleasure",
+        "date": "2017-07-01",
+        "Comment": "School Trip."
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.4627319,
+          35.2843577
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "category": "Pleasure",
+        "date": "2019-08-20",
+        "Comment": "Friends Holiday."
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -0.3700318,
+          39.4746183
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "category": "Pleasure",
+        "date": "2020-01-05",
+        "Comment": "Final hitch-hiking destination."
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          48.85435705403713, 2.370182301308023
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "category": "Family",
+        "date": "2014",
+        "Comment": "A week in Paris."
       },
       "type": "Feature"
     },
@@ -28,14 +185,221 @@
         ],
         "type": "Point"
       },
+       "properties": {
+        "category": "Family",
+        "date": "2014",
+        "Comment": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          41.89272156660838, 12.504462843027177
+        ],
+        "type": "Point"
+      },
       "properties": {
         "category": "Pleasure",
-        "google_maps_url": "http://maps.google.com/?cid=950434122085769345",
+        "date": "2024-01-10",
+        "Comment": "A week in Rome."
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          46.96717088221578, 7.442430889155312
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "category": "Pleasure",
+        "date": "2023-06",
+        "Comment": "Flat hunting in Bern."
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          7.4017435,
+          46.9395727
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "category": "Calisthenics",
+        "date": "2020-01-05",
+        "Comment": "Street Workout Bern."
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          46.17920002983131, 6.7088016320736505
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "category": "Family",
+        "date": "2014",
+        "Comment": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          46.42144024604848, 7.819263398734365
+        ],
+        "type": "Point"
+      },
+       "properties": {
+        "category": "Pleasure",
+        "date": "2025-05",
+        "Comment": "Climate hiking trip."
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.2090370,
+          47.3495705
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "category": "Calisthenics",
+        "date": "2023",
+        "Comment": "Yoga Platform Sankt Johann"
+
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          47.43502941487826, 14.480466002199833
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "category": "Pleasure",
+        "date": "2024",
+        "Comment": "New Year's Eve in Hohentauern"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          47.4347576928874, 14.481814571580992
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "category": "Pleasure",
+        "date": "2023",
+        "Comment": "New Year in Hohentauern"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          47.344616980986785, 13.20390683420109
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "category": "Family",
+        "date": "2018",
+        "Comment": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          10.6995871,
+          47.5684145
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "category": "Pleasure",
+        "date": "2019",
+        "Comment": "Bavaria City Hostel, Füssen"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          11.5022200,
+          48.1677800
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "category": "Pleasure",
+        "date": "2019",
+        "Comment": "The Tent Munich"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          11.7379245,
+          48.3996805
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "category": "Pleasure",
+        "date": "2024",
+        "Comment": "Cancelled flight."
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          14.0951846,
+          48.7306413
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "category": "Pleasure",
+        "date": "2022",
+        "Comment": "CanTrip with friends.",
+        "google_maps_url": "http://maps.google.com/?cid=1104864303118485120",
         "location": {
-          "address": "Av. de la Diputació, 77, 43850 Cambrils, Tarragona, Spain",
-          "country_code": "ES",
-          "name": "H10 Cambrils Playa"
+          "address": "Bližná 36, 382 23 Černá v Pošumaví-Horní Planá, Czechia",
+          "country_code": "CZ",
+          "name": "Relax Vila Lipno"
         }
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.3261149,
+          52.4839181
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2025",
+        "category": "Calisthenics",
+        "Comment": "Calisthenics in the park.",
+        "google_maps_url": "http://maps.google.com/?cid=18020328355429312999"
       },
       "type": "Feature"
     },
@@ -48,13 +412,624 @@
         "type": "Point"
       },
       "properties": {
+        "date": "2025",
         "category": "Business",
-        "google_maps_url": "http://maps.google.com/?cid=1818962913669680002",
+        "Comment": "GITEX Europe",
+        "google_maps_url": "http://maps.google.com/?cid=1818962913669680002"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.4257200,
+          52.4874800
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2019",
+        "category": "Pleasure",
+        "Comment": "Interrailing",
+        "google_maps_url": "http://maps.google.com/?cid=7797116758419599346"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          6.7805795,
+          51.2154390
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2019",
+        "category": "Pleasure",
+        "Comment": "Interrailing",
+        "google_maps_url": "http://maps.google.com/?cid=7210158302257283850"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -83.3366394,
+          8.4036855
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2019",
+        "category": "Pleasure",
+        "Comment": "Camps International",
+        "google_maps_url": "http://maps.google.com/?cid=1770157359585516974"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -83.2731324,
+          9.0664209
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2019",
+        "category": "Pleasure",
+        "Comment": "Camps International",
+        "google_maps_url": "http://maps.google.com/?cid=2625361110245572121"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -83.7384247,
+          9.1584532
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2019",
+        "category": "Pleasure",
+        "Comment": "Camps International",
+        "google_maps_url": "http://maps.google.com/?cid=4196188981102509735"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.927003777744318, -84.09032348716123
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2019",
+        "category": "Pleasure",
+        "Comment": "Camps International",
+        "google_maps_url": "http://maps.google.com/?q=San+Jos%C3%A9+Province,+San+Jos%C3%A9,+Costa+Rica&ftid=0x8fa0e342c50d15c5:0xe6746a6a9f11b882"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -85.6593638,
+          10.5853058
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2019",
+        "category": "Pleasure",
+        "Comment": "Camps International",
+        "google_maps_url": "http://maps.google.com/?cid=786473285404251886"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.7778520,
+          10.9026174
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2019",
+        "category": "Pleasure",
+        "Comment": "Camps International",
+        "google_maps_url": "http://maps.google.com/?cid=3524135108617574862"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -74.0060,
+          40.7128
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2017",
+        "category": "Pleasure",
+        "Comment": "School Trip",
+        "google_maps_url": "http://maps.google.com/?q=New+York,+NY,+USA&ftid=0x89c24fa5d33f083b:0xc80b8f06e177fe62"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          42.385734960496464, -71.21965902554172
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2025",
+        "category": "Business",
+        "Comment": "Wolfram Summer Program 2025",
+        "google_maps_url": "http://maps.google.com/?q=Forest+Hall,+175+Forest+St,+Waltham,+MA+02452,+USA&ftid=0x89e39d31127e2327:0x3a84d12c46937a45"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          59.31280096914148, 18.077342306665702
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2025",
+        "category": "Pleasure",
+        "Comment": "Stockholm Trip",
+        "google_maps_url": "http://maps.google.com/?q=%C3%96stg%C3%B6tagatan+32,+116+25+Stockholm,+Sweden&ftid=0x465f77f0aa45169b:0x5d552fa4476db009"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          17.9293227,
+          59.6487498
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2025",
+        "category": "Pleasure",
+        "Comment": "Stockholm Trip",
+        "google_maps_url": "http://maps.google.com/?cid=1068104731282886477"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          14.5346101,
+          61.0025564
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2025",
+        "category": "Pleasure",
+        "Comment": "Stockholm Trip",
+        "google_maps_url": "http://maps.google.com/?cid=9544977465231796123"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          10.7192354,
+          59.9122944
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2024",
+        "category": "Business",
+        "Comment": "Oslo Trip",
+        "google_maps_url": "http://maps.google.com/?cid=696673284358162325"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -6.6666410,
+          54.2667121
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2022",
+        "category": "Pleasure",
+        "Comment": "Ireland Road Trip",
+        "google_maps_url": "http://maps.google.com/?cid=10625690808124843223"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -8.1110696,
+          54.6534613
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2022",
+        "category": "Pleasure",
+        "Comment": "Ireland Road Trip",
+        "google_maps_url": "http://maps.google.com/?cid=15098377584170448778"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          54.99439875399822, -7.3107226051341705
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2022",
+        "category": "Pleasure",
+        "Comment": "Ireland Road Trip",
+        "google_maps_url": "http://maps.google.com/?q=16+Clooney+Terrace,+Londonderry+BT47+6BQ&ftid=0x485fe19ac14267cb:0xfbee39de7e613488"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -5.9349537,
+          54.5991446
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2022",
+        "category": "Pleasure",
+        "Comment": "Ireland Road Trip",
+        "google_maps_url": "http://maps.google.com/?cid=13753876887972856352",
         "location": {
-          "address": "Konstanzer Str. 60, 10707 Berlin, Germany",
-          "country_code": "DE",
-          "name": "Hotel Europa City"
+          "address": "100 Castle St, Belfast BT1 1HF, United Kingdom",
+          "country_code": "GB",
+          "name": "ibis Belfast City Centre"
         }
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -3.8025500,
+          57.1749377
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2023",
+        "category": "Pleasure",
+        "Comment": "Golf Trip",
+        "google_maps_url": "http://maps.google.com/?cid=7137483904600110311",
+        "location": {
+          "address": "Highland Lodges Club, Coylumbridge, Aviemore PH22 1QN, United Kingdom",
+          "country_code": "GB",
+          "name": "Coylumbridge Highland Lodges Club"
+        }
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -3.8329940,
+          57.1843465
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2020",
+        "category": "Pleasure",
+        "Comment": "Hiking Trip",
+        "google_maps_url": "http://maps.google.com/?cid=3717588486736434476"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -4.6077248,
+          56.1272824
+        ],
+        "type": "Point"
+      },
+      "properties": {
+         "date": "2022",
+        "category": "Pleasure",
+        "Comment": "Hiking Trip",
+        "google_maps_url": "http://maps.google.com/?cid=8748246433945057459"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -4.4439494,
+          56.0625558
+        ],
+        "type": "Point"
+      },
+      "properties": {
+         "date": "2023",
+        "category": "Pleasure",
+        "Comment": "Romantic Getaway",
+        "google_maps_url": "http://maps.google.com/?cid=14624643416501523678"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -1.5627512,
+          54.7793769
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2025",
+        "category": "Business",
+        "Comment": "Durham University Visit",
+        "google_maps_url": "http://maps.google.com/?cid=12817851349249755599"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -1.5756085,
+          54.7649150
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2024",
+        "category": "Education",
+        "Comment": "Summer Camp",
+        "google_maps_url": "http://maps.google.com/?cid=6533360714529805458"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -3.1492570,
+          54.5157230
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2016",
+        "category": "Pleasure",
+        "Comment": "DofE",
+        "google_maps_url": "http://maps.google.com/?cid=4474620625921703132"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -3.3712792,
+          54.4024098
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2016",
+        "category": "Pleasure",
+        "Comment": "DofE",
+        "google_maps_url": "http://maps.google.com/?cid=3144834669905504874"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -1.5398441,
+          53.7995847
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2025",
+        "category": "Business",
+        "Comment": "EURO 2025",
+        "google_maps_url": "http://maps.google.com/?cid=17536841800849848149"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -2.2941396,
+          53.3642338
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2025",
+        "category": "Business",
+        "Comment": "Before flight to Boston.",
+        "google_maps_url": "http://maps.google.com/?cid=3357805190063158215"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -1.1413782,
+          53.0930680
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2024",
+        "category": "Family",
+        "Comment": "Reunion",
+        "google_maps_url": "http://maps.google.com/?cid=17411327712085203998"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -0.0681710,
+          51.5105056
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2021",
+        "category": "Business",
+        "Comment": "Prime Student",
+        "google_maps_url": "http://maps.google.com/?cid=8852410934303381690"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -1.1021762,
+          51.5687728
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2024",
+        "category": "Family",
+        "Comment": "AirBnB",
+        "google_maps_url": "http://maps.google.com/?cid=3717244374109854343",
+        "location": {
+          "address": "Alexander Woollard c/o Alexander's of Ipsden, The Old Barn, Church Lane,, Ipsden, wallingford, nr Henley-on-Thames OX10 6AF, United Kingdom",
+          "name": "Interior designer in Henley-on-thames"
+        }
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -1.2739371,
+          51.6393568
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2023",
+        "category": "Calisthenics",
+        "Comment": "",
+        "google_maps_url": "http://maps.google.com/?cid=14838246271183999142"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -2.3353889,
+          51.4997129
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2024",
+        "category": "Family",
+        "Comment": "",
+        "google_maps_url": "http://maps.google.com/?q=Painters+Cottage,+6+Park+St,+Hungerford+RG17+0EF&ftid=0x4876ab517b4c21f9:0xfc87f6155b0e1647"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          51.41352815608673, -1.5133592413686416
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2025",
+        "category": "Family",
+        "Comment": "Sister's Graduation",
+        "google_maps_url": "http://maps.google.com/?q=28A+York+Cl,+Exmouth+EX8+4EQ&ftid=0x486d9ff948e44747:0x520fe0482e7327a6"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -3.5388401,
+          50.7267712
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2024",
+        "category": "Pleasure",
+        "Comment": "",
+        "google_maps_url": "http://maps.google.com/?cid=16253460187787012929"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -3.3340530,
+          50.9991416
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2023",
+        "category": "Family",
+        "Comment": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          51.29198246079743, -2.4800342571922886
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2024",
+        "category": "Family",
+        "Comment": "",
+        "google_maps_url": "http://maps.google.com/?q=23+St+Thomas+Rd,+Midsomer+Norton,+Radstock+BA3+2UT&ftid=0x48722877b248203d:0x935c5556b4b1d21b"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          51.76752246194581, -1.2337151732963485
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2024",
+        "category": "Pleasure",
+        "Comment": "",
+        "google_maps_url": "http://maps.google.com/?q=45+Ouseley+Cl,+Headington,+Oxford+OX3+0JS&ftid=0x4876c3e4ba1e588f:0xfb938f077aa27417"
       },
       "type": "Feature"
     },
@@ -67,17 +1042,28 @@
         "type": "Point"
       },
       "properties": {
+        "date": "2018",
         "category": "Education",
-        "google_maps_url": "http://maps.google.com/?cid=15660447374667179255",
-        "location": {
-          "address": "High St, Oxford OX1 4AW, United Kingdom",
-          "country_code": "GB",
-          "name": "The Queen's College"
-        }        
+        "Comment": "Science Residential",
+        "google_maps_url": "http://maps.google.com/?cid=15660447374667179255"
       },
       "type": "Feature"
     },
-        {
+    {
+      "geometry": {
+        "coordinates": [
+          51.7290858998932, -1.442769827484951
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2024",
+        "category": "Family",
+        "Comment": "AirBnB",
+        "google_maps_url": "http://maps.google.com/?q=33+Abingdon+Rd,+Standlake,+Witney+OX29+7QH&ftid=0x4876cbd83616d5bf:0xc0398d6932d0ffe"      },
+      "type": "Feature"
+    },
+    {
       "geometry": {
         "coordinates": [
           -1.6383097,
@@ -86,13 +1072,26 @@
         "type": "Point"
       },
       "properties": {
-        "category": "FamilyHoliday",
-        "google_maps_url": "http://maps.google.com/?cid=15013553488160959830",
-        "location": {
-          "address": "12 Sheep St, Burford OX18 4LW, United Kingdom",
-          "country_code": "GB",
-          "name": "The Bay Tree Hotel"
-        }
+        "date": "2012",
+        "category": "Family",
+        "Comment": "Relative's Wedding",
+        "google_maps_url": "http://maps.google.com/?cid=15013553488160959830"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          51.825589594898496, 
+          -1.3731952061112487
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2024",
+        "category": "Business",
+        "Comment": "AirBnB",
+        "google_maps_url": "http://maps.google.com/?q=230+Main+Rd,+Long+Hanborough,+Witney+OX29+8LA&ftid=0x4876cfc04c382963:0x3ad961412d2b4bea"
       },
       "type": "Feature"
     }
