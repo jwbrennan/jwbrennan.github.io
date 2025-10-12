@@ -234,11 +234,9 @@
                         const props = feature.properties;
                         const loc = props.location;
                         const popupContent = `
-                            <b>${loc.name}</b><br>
-                            Address: ${loc.address}<br>
-                            Country: ${loc.country_code}<br>
                             Category: ${props.category || 'N/A'}<br>
                             <a href="${props.google_maps_url}" target="_blank">View on Google Maps</a>
+                            Category: ${props.Comment || 'N/A'}<br>
                         `;
                         layer.bindPopup(popupContent);
                     }
