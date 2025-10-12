@@ -144,6 +144,12 @@ h3 {
   box-shadow: 0 5px 15px rgba(102, 126, 234, 0.1);
 }
 
+ul li i {
+  color: #ff7f0e; 
+  margin-right: 10px; 
+  font-size: 1.2em; 
+}
+
 .media-image {
   max-width: 100%;
   height: auto;
