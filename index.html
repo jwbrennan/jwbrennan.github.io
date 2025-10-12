@@ -13,10 +13,11 @@
     <header>
       <nav>
         <ul>
+          <li><a href="#home" class="active">Home</a></li>
           <li><a href="#about-me" class="active">About Me</a></li>
           <li><a href="#events">Events</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#Media">Media</a></li>
+          <li><a href="#media">Media</a></li>
           <li><a href="#travel">Travel</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -67,11 +68,11 @@
         </div>
 
         <h3>My Productivity System</h3>
-          <ul>
-            <li>Obsidian for note-taking.</li>
-            <li>Google Sheets for tracking time of waking and screen time.</li>
-            <li>Notion for groceries, meals, workouts, finances, inventory.</li>
-          </ul>
+         <ul>
+          <li><i class="fas fa-sticky-note"></i> Obsidian for note-taking and knowledge management.</li>
+          <li><i class="fas fa-chart-line"></i> Google Sheets for tracking time of waking, screen time, and habits.</li>
+          <li><i class="fas fa-database"></i> Notion for groceries, meals, workouts, finances, and inventory tracking.</li>
+        </ul>
       </section>
       <section id="projects">
         <h2>Projects</h2>
@@ -85,6 +86,7 @@
       </section>
       <section id="events">
         <h2>Events</h2>
+        <p>Here is a selection of my speaking engagements and conferences.</p>
         <table>
           <thead>
             <tr>
@@ -176,11 +178,11 @@
         <h2>Media</h2>
         <div class="gallery">
                 <div class="gallery-item">
-                    <img src="OR.png" alt="OR Conference" class="media-image">
+                    <img src="OR.png" alt="OR Conference" class="media-image", loading="lazy">
                     <p class="caption">Presenting at EURO 2025 in Leeds, UK.</p>
                 </div>
                 <div class="gallery-item">
-                    <img src="WSRP.png" alt="Mentor Group" class="media-image">
+                    <img src="WSRP.png" alt="Mentor Group" class="media-image". loading="lazy">
                     <p class="caption">My mentee group at WSRP 2025 at Bentley University, MA.</p>
                 </div>
         </div>
@@ -261,6 +263,15 @@
     <footer>
       <p>&copy; 2025 Joseph Brennan. All rights reserved.</p>
     </footer>
+    <!-- Smooth scrolling for nav links and active state handling -->
+    <script>
+      document.querySelectorAll('nav a').forEach(link => {
+        link.addEventListener('click', function() {
+          document.querySelectorAll('nav a').forEach(navLink => navLink.classList.remove('active'));
+          this.classList.add('active');
+        });
+      });
+    </script>
   </body>
   <!--TODO: Obsidian Live Graph. Google Maps. Notion Template. -->
 </html>
