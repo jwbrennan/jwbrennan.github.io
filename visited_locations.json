@@ -599,8 +599,8 @@
       "properties": {
         "date": "2025",
         "category": "Pleasure",
-        "comment": "Stockholm Trip",
-        "google_maps_url": "http://maps.google.com/?q=%C3%96stg%C3%B6tagatan+32,+116+25+Stockholm,+Sweden&ftid=0x465f77f0aa45169b:0x5d552fa4476db009"
+        "comment": "Sweden Trip",
+        "google_maps_url": "http://maps.google.com/?q=%C3%96stg%C3%B6tagatan+32,+116+25+Sweden,+Sweden&ftid=0x465f77f0aa45169b:0x5d552fa4476db009"
       },
       "type": "Feature"
     },
@@ -615,7 +615,7 @@
       "properties": {
         "date": "2025",
         "category": "Pleasure",
-        "comment": "Stockholm Trip",
+        "comment": "Sweden Trip",
         "google_maps_url": "http://maps.google.com/?cid=1068104731282886477"
       },
       "type": "Feature"
@@ -631,7 +631,7 @@
       "properties": {
         "date": "2025",
         "category": "Pleasure",
-        "comment": "Stockholm Trip",
+        "comment": "Sweden Trip",
         "google_maps_url": "http://maps.google.com/?cid=9544977465231796123"
       },
       "type": "Feature"
