@@ -232,11 +232,10 @@
                     },
                     onEachFeature: function(feature, layer) {
                         const props = feature.properties;
-                        const loc = props.location;
                         const popupContent = `
                             Category: ${props.category || 'N/A'}<br>
                             <a href="${props.google_maps_url}" target="_blank">View on Google Maps</a>
-                            Category: ${props.Comment || 'N/A'}<br>
+                            comment: ${props.comment || 'N/A'}<br>
                         `;
                         layer.bindPopup(popupContent);
                     }
