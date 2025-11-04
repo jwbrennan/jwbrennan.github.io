@@ -334,3 +334,31 @@ section {
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(135deg, #e67e22 0%, #ff7f0e 100%);
 }
+
+/* ——— ORANGE LINKS THAT MATCH YOUR BRAND ——— */
+a {
+  color: #e67e22;                          /* Base orange */
+  text-decoration: none;
+  background: linear-gradient(90deg, 
+              #ff7f0e 0%, #ff7f0e 100%);
+  background-size: 0% 2px;
+  background-repeat: no-repeat;
+  background-position: 0 90%;
+  transition: all 0.3s ease;
+  padding-bottom: 2px;
+}
+
+/* Hover → full pill */
+a:hover {
+  color: white;
+  background-size: 100% 100%;
+  border-radius: 20px;
+  padding: 4px 12px;
+  margin: -4px -12px;
+  background: linear-gradient(135deg, #ff7f0e 0%, #ff9a3c 100%);
+  box-shadow: 0 4px 12px rgba(255,127,14,.4);
+}
+
+/* Keep nav links untouched */
+nav a { all: unset; }          /* resets the rule for the sticky nav */
+nav a:hover { all: unset; }
