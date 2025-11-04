@@ -362,3 +362,49 @@ a:hover {
 /* Keep nav links untouched */
 nav a { all: unset; }          /* resets the rule for the sticky nav */
 nav a:hover { all: unset; }
+
+/* ——— CONTACT ICON CARDS ——— */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 25px;
+  margin: 30px 0;
+  justify-items: center;
+}
+
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 140px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: #e67e22;
+}
+
+.contact-card i {
+  font-size: 2.8em;
+  margin-bottom: 12px;
+  transition: transform 0.3s ease;
+}
+
+.contact-card span {
+  font-weight: 500;
+  font-size: 1.1em;
+}
+
+.contact-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 20px 40px rgba(255,127,14,.3);
+  background: linear-gradient(135deg, #ff7f0e, #ff9a3c);
+  color: white;
+}
+
+.contact-card:hover i {
+  transform: scale(1.2) rotate(8deg);
+}
