@@ -1111,6 +1111,22 @@
         "google_maps_url": "http://maps.google.com/?q=230+Main+Rd,+Long+Hanborough,+Witney+OX29+8LA&ftid=0x4876cfc04c382963:0x3ad961412d2b4bea"
       },
       "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [ 
+          -61.300544,
+          46.235245
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2023",
+        "category": "Family",
+        "comment": "Visiting brother in Canada",
+        "google_maps_url": "https://maps.app.goo.gl/CzUyd3zCcKJ7wzxo8"
+      },
+      "type": "Feature"
     }
   ]
 }
