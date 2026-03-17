@@ -98,6 +98,7 @@
       <section id="events">
         <h2>Events</h2>
         <p>Here is a selection of my speaking engagements and conferences.</p>
+        <div class="table-responsive">
         <table>
           <thead>
             <tr>
@@ -188,6 +189,7 @@
             </tr>
           </tbody>
         </table>
+        </div>
         <p> Here is a <a href="https://www.youtube.com/playlist?list=PLn3ZImIprCV_DF0xzBlYBO7-foPP4OqAP">YouTube playlist</a> of Wolfram webinars I have delivered.</p>
       </section>
 
@@ -260,6 +262,11 @@
                         layer.bindPopup(popupContent);
                     }
                 }).addTo(map);
+
+                // Debug: report counts and bounds to help diagnose missing markers
+                console.log('GeoJSON features:', data.features ? data.features.length : 'no features');
+                console.log('GeoJSON layer layers:', geojsonLayer.getLayers().length);
+                console.log('GeoJSON bounds:', geojsonLayer.getBounds().toBBoxString());
 
                 // Fit map to bounds
                 map.fitBounds(geojsonLayer.getBounds(), { padding: [50, 50] });

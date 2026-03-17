@@ -180,6 +180,10 @@ td {
   padding: 15px;
   text-align: left;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  /* allow long content to wrap and avoid horizontal overflow on small devices */
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 th {
@@ -319,6 +323,19 @@ section {
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
+}
+
+/* Responsive table container to prevent the table exceeding the page on small screens */
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 15px;
+}
+.table-responsive table {
+  width: 100%;
+  max-width: 100%;
+  display: table;
 }
 
 ::-webkit-scrollbar-track {
