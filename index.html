@@ -24,6 +24,9 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
+      <div class="header-controls">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">☀︎</button>
+      </div>
     </header>
 
     <main>
@@ -308,6 +311,35 @@
           this.classList.add('active');
         });
       });
+    </script>
+    <script>
+      (function(){
+        const button = document.getElementById('theme-toggle');
+        const root = document.documentElement;
+        const stored = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const initial = stored ? stored : (prefersDark ? 'dark' : 'dark');
+        if(initial === 'light'){
+          root.setAttribute('data-theme','light');
+          button.textContent = '🌙';
+        } else {
+          root.removeAttribute('data-theme');
+          button.textContent = '☀︎';
+        }
+
+        button.addEventListener('click', function(){
+          const isLight = root.getAttribute('data-theme') === 'light';
+          if(isLight){
+            root.removeAttribute('data-theme');
+            localStorage.setItem('theme','dark');
+            button.textContent = '☀︎';
+          } else {
+            root.setAttribute('data-theme','light');
+            localStorage.setItem('theme','light');
+            button.textContent = '🌙';
+          }
+        });
+      })();
     </script>
   </body>
   <!--TODO: Obsidian Live Graph. Google Maps. Notion Template. -->
