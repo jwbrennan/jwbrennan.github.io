@@ -19,6 +19,7 @@ body {
   background-size: 24px 24px, 100% 100%;
   min-height: 100vh;
   color: var(--neon);
+  overflow-x: hidden;
 }
 
 header{
@@ -45,7 +46,7 @@ nav ul li a{
 
 nav ul li a:hover, nav ul li a.active{ background: rgba(0,255,120,0.06); color: var(--accent); transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,255,120,0.06); }
 
-html{ scroll-behavior:smooth }
+html{ scroll-behavior:smooth; overflow-x: hidden }
 
 main{ max-width:1100px; margin:36px auto; padding: 0 22px; }
 
