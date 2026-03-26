@@ -318,7 +318,7 @@
         const root = document.documentElement;
         const stored = localStorage.getItem('theme');
         const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-        const initial = stored ? stored : (prefersDark ? 'dark' : 'dark');
+        const initial = stored ? stored : (prefersDark ? 'dark' : 'light');
         if(initial === 'light'){
           root.setAttribute('data-theme','light');
           button.textContent = '🌙';
