@@ -85,25 +85,31 @@ tr:hover{ background: rgba(0,255,120,0.02) }
 
 /* Smaller thumbnail-style gallery (used for the calisthenics section) */
 .gallery--thumbs {
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  /* allow items to size relative to viewport: min 140px, max ~28% of viewport */
+  grid-template-columns: repeat(auto-fit, minmax(140px, 28vw));
   gap: 12px;
   margin: 18px 0;
 }
 .gallery--thumbs .gallery-item{ padding: 8px; border-radius: 10px; background: transparent }
+.gallery--thumbs .gallery-item{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
 .gallery--thumbs .gallery-item img{
   width: 100%;
   height: auto;
-  aspect-ratio: 16 / 9;
-  max-height: 140px;
+  aspect-ratio: 3 / 2;
   object-fit: cover;
   border-radius: 8px;
-  margin: 0;
+  margin: 0 0 8px 0;
   display: block;
 }
 .gallery--thumbs .caption{ font-size: 0.88rem; margin-top: 8px; text-align:center; color: var(--muted) }
 
 @media (max-width:480px){
-  .gallery--thumbs .gallery-item img{ max-height: 110px }
+  .gallery--thumbs { grid-template-columns: repeat(auto-fit, minmax(120px, 46vw)); }
+  .gallery--thumbs .gallery-item img{ aspect-ratio: 4 / 3 }
 }
 
 .caption { color: var(--muted); }
