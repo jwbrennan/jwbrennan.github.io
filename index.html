@@ -4,12 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Joseph Brennan</title>
-    <link rel="icon" type="image/png" href="images/J-Brennan-Logo.png" />
-    <link rel="stylesheet" href="styles-timecapsule.css" />
+    <meta name="description" content="Joseph Brennan — technical consultant, educator, and Wolfram instructor. Projects, events, and a time-capsule log of work, reading, and travels." />
+    <link rel="canonical" href="https://jwbrennan.github.io/" />
+
+    <!-- Open Graph / Social preview -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Joseph Brennan" />
+    <meta property="og:description" content="Technical consultant, educator and calisthenics athlete" />
+    <meta property="og:url" content="https://jwbrennan.github.io/" />
+    <meta property="og:image" content="https://jwbrennan.github.io/images/J-Brennan-Logo.png" />
+
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "https://jwbrennan.github.io/",
+      "name": "Joseph Brennan",
+      "description": "Technical consultant, educator and calisthenics athlete",
+      "publisher": {
+        "@type": "Person",
+        "name": "Joseph Brennan",
+        "url": "https://jwbrennan.github.io/"
+      }
+    }
+    </script>
   </head>
   <body>
     <header>
@@ -31,17 +53,16 @@
 
     <main>
       <section id="home">
-        <h1>Welcome to my Website</h1>
+        <h1>Joseph Brennan</h1>
         <p>
           Hi, I'm Joseph, a Technical Consultant working for
           <a href="https://www.wolfram.com/">Wolfram</a>.
         </p>
       </section>
-
       <section id="about-me">
         <h2>About Me</h2>
         <p>
-          For the past 18 months I have worked for the technical consulting
+          For two years,I have worked for the technical consulting
           department of Wolfram Research. I help provide solutions to clients
           using Wolfram technologies.
           </p>
@@ -76,31 +97,32 @@
           <div class="productivity-grid">
           <div class="prod-item">
           <i class="fas fa-sticky-note"></i>
-          <span>Obsidian for note-taking and knowledge management.</span>
-          </div>
-          <div class="prod-item">
-          <i class="fas fa-chart-line"></i>
-          <span>Google Sheets for tracking time of waking, screen time, and habits.</span>
+            <span><a href="https://obsidian.md/" target="_blank" rel="noopener">Obsidian</a> for note-taking and brainstorming.</span>
           </div>
           <div class="prod-item">
           <i class="fas fa-database"></i>
-          <span>Notion for groceries, meals, workouts, finances, and inventory tracking.</span>
+            <span><a href="https://www.notion.com/" target="_blank" rel="noopener">Notion</a> for groceries, meals, workouts, finances, and inventory tracking.</span>
           </div>
           </div>
       </section>
       <section id="projects">
         <h2>Projects</h2>
          <ul>
-            <li><a href="https://github.com/jwbrennan">GitHub</a></li>
-            <li><a href="https://www.wolfram.com/wolfram-u/instructors/joseph-brennan.html">Wolfram Instructor Profile</a></li>
-            <li><a href="https://resources.wolframcloud.com/publishers/resources?PublisherID=JosephBrennan">Wolfram Function Repository Profile</a></li>
-            <li><a href="https://community.wolfram.com/web/josephb">Wolfram Community Profile</a></li>
+            <li>A strategy-based game for finding Perfect Scrabble Games — <a href="https://perfectscrabblegames.com" target="_blank" rel="noopener">perfectscrabblegames.com</a></li>
+            <li>A statistical Poker exploration — <a href="https://community.wolfram.com/groups/-/m/t/3567108" target="_blank" rel="noopener">Wolfram Community Post</a></li>
+            <li>My Wolfram Function Repository functions — <a href="https://resources.wolframcloud.com/publishers/resources?PublisherID=JosephBrennan" target="_blank" rel="noopener">Wolfram Function Repository</a></li>
           </ul>
+
+         <h3>Some of my work for Wolfram featured here</h3>
+         <ul>
+           <li>Advancing electric-truck simulation with Wolfram tools — <a href="https://www.wolframconsulting.com/advancing-electric-truck-simulation-with-wolfram-tools-wolfram-consulting-group/" target="_blank" rel="noopener">wolframconsulting.com</a></li>
+           <li>Computational intelligence in healthcare — <a href="https://www.wolfram.com/solutions/computational-intelligence-in-healthcare/" target="_blank" rel="noopener">wolfram.com</a></li>
+         </ul>
        
       </section>
       <section id="events">
         <h2>Events</h2>
-        <p>Here is a selection of my speaking engagements and conferences.</p>
+        <p>A selection of my speaking engagements and other appearances:</p>
         <div class="table-responsive">
         <table>
           <thead>
@@ -200,12 +222,8 @@
         <h2>Media</h2>
         <div class="gallery">
                 <div class="gallery-item">
-                    <img src="images/OR.png" alt="OR Conference" class="media-image", loading="lazy">
-                    <p class="caption">Presenting at EURO 2025 in Leeds, UK.</p>
-                </div>
-                <div class="gallery-item">
                     <img src="images/WSRP.png" alt="Mentor Group" class="media-image", loading="lazy">
-                    <p class="caption">My mentee group at WSRP 2025 at Bentley University, MA.</p>
+                    <p class="caption">My mentee group at WSRP 2025 at Bentley University, MA</p>
                 </div>
         </div>
       </section>
@@ -277,6 +295,20 @@
         </script>
       </section>
 
+      <section id="calisthenics">
+        <h2>Calisthenics</h2>
+        <div class="gallery">
+          <div class="gallery-item">
+            <img src="images/cali-stack.jpg" alt="Calisthenics equipment stack" class="media-image" loading="lazy">
+            <p class="caption">Current calisthenics equipment stack</p>
+          </div>
+          <div class="gallery-item">
+            <img src="images/cali-squat.jpg" alt="Joseph performing a squat" class="media-image" loading="lazy">
+            <p class="caption">Outdoor Calisthenics Training</p>
+          </div>
+        </div>
+      </section>
+
       <section id="contact">
       <h2>Contact</h2>
         <div class="contact-grid">
@@ -284,7 +316,7 @@
           <i class="fas fa-envelope"></i>
           <span>Email</span>
           </a>
-          <a href="https://x.com/TheDiractionary" class="contact-card">   <!-- UPDATE THIS -->
+          <a href="https://x.com/TheDiractionary" class="contact-card">
           <i class="fab fa-x-twitter"></i>
           <span>X</span>
           </a>
@@ -301,7 +333,7 @@
     </main>
 
     <footer>
-      <p>&copy; 2025 Joseph Brennan. All rights reserved.</p>
+      <p>&copy; 2026 Joseph Brennan. All rights reserved.</p>
     </footer>
     <!-- Smooth scrolling for nav links and active state handling -->
     <script>
