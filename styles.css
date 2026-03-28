@@ -67,7 +67,45 @@ h2{ font-size:1.5rem; color:var(--neon); margin:0 0 14px 0; letter-spacing:1px }
 
 h3{ font-size:1.1rem; color:var(--neon); margin-bottom:10px }
 
-.quote{ font-style:normal; border-left:4px solid rgba(0,255,120,0.14); margin:18px 0; padding:14px; color:var(--muted); background: rgba(0,0,0,0.15); border-radius:6px }
+.quote{
+  position: relative;
+  font-style: normal;
+  border-left: 4px solid rgba(0,255,120,0.14);
+  margin: 18px 0;
+  padding: 18px 14px 14px 18px;
+  color: var(--muted);
+  background: rgba(0,0,0,0.15);
+  border-radius: 6px;
+}
+
+/* Decorative open-quote mark */
+.quote::before{
+  content: "“";
+  position: absolute;
+  left: 8px;
+  top: 6px;
+  font-size: 48px;
+  line-height: 1;
+  color: rgba(102,255,136,0.06);
+  pointer-events: none;
+}
+
+.quote p{ margin: 0 }
+
+/* The quoted text */
+.quote p:first-of-type{
+  font-style: italic;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+
+/* The attribution/signature */
+.quote p:last-of-type{
+  font-style: normal;
+  color: var(--neon);
+  margin-top: 8px;
+  font-weight: 700;
+}
 
 .media-image{ max-width:100%; height:auto; display:block; margin:14px auto; border-radius:8px; border:1px solid rgba(0,255,120,0.04) }
 
@@ -132,11 +170,36 @@ body::after{ content: ''; pointer-events: none; position: fixed; inset: 0; backg
 @keyframes flicker{ 0%{opacity:.98} 50%{opacity:.92} 100%{opacity:.98} }
 body{ animation: flicker 6s linear infinite }
 
-/* base link styling */
-a{ color:var(--neon); text-decoration: underline dotted rgba(102,255,136,0.06); transition: color .12s ease }
+/* Link styling — make URLs more obvious and accessible */
 
-a:hover{ color:#bfffd3; text-shadow:0 0 8px rgba(102,255,136,0.06) }
+a{
+  color: #bfffd3;
+  text-decoration: underline;
+  text-decoration-color: rgba(102,255,136,0.18);
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1.6px;
+  background-image: none;
+  padding-bottom: 0;
+  border-radius: 3px;
+  transition: color .12s ease, background-color .12s ease, box-shadow .12s ease, transform .08s ease;
+}
 
+a:visited{ color: #9be6c1; }
+
+a:hover, a:focus{
+  color: #ffffff;
+  background-color: rgba(102,255,136,0.12);
+  box-shadow: 0 6px 22px rgba(0,255,120,0.06);
+  transform: translateY(-1px);
+  text-decoration: underline;
+}
+
+a:focus{
+  outline: 3px solid rgba(102,255,136,0.18);
+  outline-offset: 3px;
+}
+
+/* keep navigation reset rule intact */
 .nav a{ all: unset }
 
 /* Contact grid (keeps cards in responsive columns) */
