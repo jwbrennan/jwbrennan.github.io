@@ -138,10 +138,10 @@
             <li>My Wolfram Function Repository functions — <a href="https://resources.wolframcloud.com/publishers/resources?PublisherID=JosephBrennan" target="_blank" rel="noopener">Wolfram Function Repository</a></li>
           </ul>
 
-         <h3>Some of my work for Wolfram featured here</h3>
+         <h3>Some featured consulting work:</h3>
          <ul>
-           <li>Advancing electric-truck simulation with Wolfram tools — <a href="https://www.wolframconsulting.com/advancing-electric-truck-simulation-with-wolfram-tools-wolfram-consulting-group/" target="_blank" rel="noopener">wolframconsulting.com</a></li>
-           <li>Computational intelligence in healthcare — <a href="https://www.wolfram.com/solutions/computational-intelligence-in-healthcare/" target="_blank" rel="noopener">wolfram.com</a></li>
+           <li>Advancing Electric Truck Simulation with Wolfram Tools — <a href="https://www.wolframconsulting.com/advancing-electric-truck-simulation-with-wolfram-tools-wolfram-consulting-group/" target="_blank" rel="noopener">(here)</a></li>
+           <li>Computational Intelligence in Healthcare — <a href="https://www.wolfram.com/solutions/computational-intelligence-in-healthcare/" target="_blank" rel="noopener">(here)</a></li>
          </ul>
        
       </section>
@@ -261,12 +261,17 @@
         <!-- Leaflet JS -->
         <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
         <script>
-        // Initialize the map
-        var map = L.map('map').setView([0, 0], 2);
+        // Initialize the map constrained to world bounds to prevent horizontal scrolling/wrapping
+        var map = L.map('map', {
+          worldCopyJump: false,
+          maxBounds: [[-90, -180], [90, 180]],
+          maxBoundsViscosity: 1
+        }).setView([0, 0], 2);
 
-        // Add OpenStreetMap tiles
+        // Add OpenStreetMap tiles with noWrap to avoid horizontal tile repetition
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+          noWrap: true
         }).addTo(map);
 
         // Define category colors
