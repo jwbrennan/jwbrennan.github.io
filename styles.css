@@ -342,8 +342,6 @@ a:focus-visible{
   color: var(--neon);
 }
 
-[data-theme="light"] body::after{ background-image: repeating-linear-gradient(rgba(0,0,0,0.02) 0 1px, transparent 1px 6px); opacity:0.45; mix-blend-mode: normal }
-
 /* Light-theme specific link & attribution tweaks */
 [data-theme="light"] a{
   color: var(--accent);
@@ -360,13 +358,6 @@ a:focus-visible{
 
 [data-theme="light"] .quote p:last-of-type{
   color: var(--accent);
-}
-
-/* Remove the scanline/perforation overlay in light mode */
-[data-theme="light"] body::after{
-  background-image: none;
-  opacity: 0;
-  mix-blend-mode: normal;
 }
 
 [data-theme="light"] a:focus-visible{
