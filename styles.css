@@ -13,10 +13,6 @@ body {
   font-family: "Share Tech Mono", "Rubik", monospace;
   margin: 0;
   background-color: var(--bg-1);
-  background-image:
-    radial-gradient(rgba(0,40,20,0.25) 0.5px, transparent 0.5px),
-    linear-gradient(180deg, rgba(0,32,10,0.25), rgba(0,0,0,0.2));
-  background-size: 24px 24px, 100% 100%;
   min-height: 100vh;
   color: var(--neon);
   overflow-x: hidden;
@@ -417,5 +413,21 @@ section { animation: fadeInUp 0.6s ease-out; }
 ::-webkit-scrollbar-track { background: rgba(0,0,0,0.06); border-radius: 10px; }
 ::-webkit-scrollbar-thumb { background: linear-gradient(135deg, var(--neon) 0%, #73ff9b 100%); border-radius: 10px; }
 ::-webkit-scrollbar-thumb:hover { background: linear-gradient(135deg, #aaffc9 0%, #73ff9b 100%); }
+
+html, body {
+  background-image: none !important;
+  background: none !important;
+  background-color: var(--bg-1) !important;
+}
+
+html::before, html::after, body::before, body::after,
+.overlay, .scanline, .perforation, .site-overlay {
+  display: none !important;
+  background: none !important;
+  background-image: none !important;
+  opacity: 0 !important;
+  box-shadow: none !important;
+  pointer-events: none !important;
+}
 
 
