@@ -4,12 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Joseph Brennan</title>
-    <link rel="icon" type="image/png" href="J-Brennan-Logo.png" />
-    <link rel="stylesheet" href="styles.css" />
+    <meta name="description" content="Joseph Brennan — Technical Consultant, educator, and Wolfram instructor. Projects, events, and a time-capsule log of work, reading, and travels." />
+    <link rel="canonical" href="https://jwbrennan.github.io/" />
+
+    <!-- Open Graph / Social preview -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Joseph Brennan" />
+    <meta property="og:description" content="Technical Consultant, educator and calisthenics athlete" />
+    <meta property="og:url" content="https://jwbrennan.github.io/" />
+    <meta property="og:image" content="https://jwbrennan.github.io/images/J-Brennan-Logo.png" />
+
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <!-- Main site styles -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Favicon / Touch icon -->
+    <link rel="icon" href="images/J-Brennan-Logo.png" type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="images/J-Brennan-Logo.png" />
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "https://jwbrennan.github.io/",
+      "name": "Joseph Brennan",
+      "description": "Technical Consultant, educator and calisthenics athlete",
+      "publisher": {
+        "@type": "Person",
+        "name": "Joseph Brennan",
+        "url": "https://jwbrennan.github.io/"
+      }
+    }
+    </script>
   </head>
   <body>
     <header>
@@ -24,28 +51,52 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
+      <div class="header-controls">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme" aria-pressed="false">
+          <!-- Sun icon -->
+          <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <g>
+              <circle cx="12" cy="12" r="4" />
+              <g stroke="currentColor" stroke-width="1.4" stroke-linecap="round">
+                <line x1="12" y1="1" x2="12" y2="3" />
+                <line x1="12" y1="21" x2="12" y2="23" />
+                <line x1="1" y1="12" x2="3" y2="12" />
+                <line x1="21" y1="12" x2="23" y2="12" />
+                <line x1="4.2" y1="4.2" x2="5.6" y2="5.6" />
+                <line x1="18.4" y1="18.4" x2="19.8" y2="19.8" />
+                <line x1="4.2" y1="19.8" x2="5.6" y2="18.4" />
+                <line x1="18.4" y1="5.6" x2="19.8" y2="4.2" />
+              </g>
+            </g>
+          </svg>
+          <!-- Moon icon -->
+          <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
+          </svg>
+        </button>
+      </div>
     </header>
 
     <main>
       <section id="home">
-        <h1>Welcome to my Website</h1>
+        <div class="hero">
+          <img src="images/me.jpg" alt="Profile Image" class="profile-image" loading="lazy">
+          <h1>Joseph Brennan</h1>
+        </div>
         <p>
-          Hi, I'm Joseph, a Technical Consultant working for
-          <a href="https://www.wolfram.com/">Wolfram</a>.
+          Senior Technical Consultant at <a href="https://www.wolfram.com/">Wolfram Research</a>.
         </p>
       </section>
-
       <section id="about-me">
         <h2>About Me</h2>
         <p>
-          For the past 18 months I have worked for the technical consulting
-          department of Wolfram Research. I help provide solutions to clients
-          using Wolfram technologies.
+          For two years, I have worked for the technical consulting
+          department of Wolfram Research.
           </p>
         <p>
           My background in astrophysics allows me to
           effectively solve complex problems and deliver high-quality results. I
-          also deliver training and webinars showcasing the capabilities of
+          also conduct training and webinars showcasing the capabilities of
           Wolfram products. 
           </p>
         <p>
@@ -73,31 +124,35 @@
           <div class="productivity-grid">
           <div class="prod-item">
           <i class="fas fa-sticky-note"></i>
-          <span>Obsidian for note-taking and knowledge management.</span>
-          </div>
-          <div class="prod-item">
-          <i class="fas fa-chart-line"></i>
-          <span>Google Sheets for tracking time of waking, screen time, and habits.</span>
+            <span><a href="https://obsidian.md/" target="_blank" rel="noopener">Obsidian</a> for note-taking and brainstorming.</span>
           </div>
           <div class="prod-item">
           <i class="fas fa-database"></i>
-          <span>Notion for groceries, meals, workouts, finances, and inventory tracking.</span>
+            <span><a href="https://www.notion.com/" target="_blank" rel="noopener">Notion</a> for groceries, meals, workouts, finances, and inventory tracking.</span>
           </div>
+           <div class="prod-item">
+          <i class="fas fa-microphone"></i>
+            <span><a href="https://otter.ai/" target="_blank" rel="noopener">Otter.ai</a> for idea transcription.</span>
           </div>
       </section>
       <section id="projects">
         <h2>Projects</h2>
          <ul>
-            <li><a href="https://github.com/jwbrennan">GitHub</a></li>
-            <li><a href="https://www.wolfram.com/wolfram-u/instructors/joseph-brennan.html">Wolfram Instructor Profile</a></li>
-            <li><a href="https://resources.wolframcloud.com/publishers/resources?PublisherID=JosephBrennan">Wolfram Function Repository Profile</a></li>
-            <li><a href="https://community.wolfram.com/web/josephb">Wolfram Community Profile</a></li>
+            <li>A strategy-based game for finding Perfect Scrabble Games — <a href="https://perfectscrabblegames.com" target="_blank" rel="noopener">perfectscrabblegames.com</a></li>
+            <li>A Wolfram Community Post on statistical Poker exploration — <a href="https://community.wolfram.com/groups/-/m/t/3567108" target="_blank" rel="noopener">(here)</a></li>
+            <li>My Wolfram Function Repository functions — <a href="https://resources.wolframcloud.com/publishers/resources?PublisherID=JosephBrennan" target="_blank" rel="noopener">(here)</a></li>
           </ul>
+
+         <h3>Some featured consulting work:</h3>
+         <ul>
+           <li>Advancing Electric Truck Simulation with Wolfram Tools — <a href="https://www.wolframconsulting.com/advancing-electric-truck-simulation-with-wolfram-tools-wolfram-consulting-group/" target="_blank" rel="noopener">(here)</a></li>
+           <li>Computational Intelligence in Healthcare — <a href="https://www.wolfram.com/solutions/computational-intelligence-in-healthcare/" target="_blank" rel="noopener">(here)</a></li>
+         </ul>
        
       </section>
       <section id="events">
         <h2>Events</h2>
-        <p>Here is a selection of my speaking engagements and conferences.</p>
+        <p>A selection of my speaking engagements and other appearances:</p>
         <div class="table-responsive">
         <table>
           <thead>
@@ -190,19 +245,15 @@
           </tbody>
         </table>
         </div>
-        <p> Here is a <a href="https://www.youtube.com/playlist?list=PLn3ZImIprCV_DF0xzBlYBO7-foPP4OqAP">YouTube playlist</a> of Wolfram webinars I have delivered.</p>
+        <p> Here is a <a href="https://www.youtube.com/playlist?list=PLn3ZImIprCV_DF0xzBlYBO7-foPP4OqAP" target="_blank" rel="noopener">YouTube Playlist</a> of webinars I have delivered.</p>
       </section>
 
       <section id="media">
         <h2>Media</h2>
         <div class="gallery">
                 <div class="gallery-item">
-                    <img src="OR.png" alt="OR Conference" class="media-image", loading="lazy">
-                    <p class="caption">Presenting at EURO 2025 in Leeds, UK.</p>
-                </div>
-                <div class="gallery-item">
-                    <img src="WSRP.png" alt="Mentor Group" class="media-image". loading="lazy">
-                    <p class="caption">My mentee group at WSRP 2025 at Bentley University, MA.</p>
+                    <img src="images/WSRP.png" alt="Mentee Group" class="media-image" loading="lazy">
+                    <p class="caption">My mentee group at WSRP 2025 at Bentley University, MA</p>
                 </div>
         </div>
       </section>
@@ -211,19 +262,18 @@
         <h2>Travel</h2>
 
         <div id="map"></div>
-
-        <!-- Leaflet JS -->
         <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
         <script>
-        // Initialize the map
-        var map = L.map('map').setView([0, 0], 2);
-
-        // Add OpenStreetMap tiles
+        // Prevent horizontal scrolling/wrapping
+        var map = L.map('map', {
+          worldCopyJump: false,
+          maxBounds: [[-90, -180], [90, 180]],
+          maxBoundsViscosity: 1
+        }).setView([0, 0], 2);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+          noWrap: true
         }).addTo(map);
-
-        // Define category colors
         const categoryColors = {
             'Business': '#000000', // Black
             'Pleasure': '#ff7f0e', // Orange
@@ -232,7 +282,6 @@
             'Calisthenics': '#c30010', // Red
             'default': '#9467bd'   // Purple for unknown categories
         };
-
         // Fetch and process GeoJSON
         fetch('visited_locations.json')
             .then(response => response.json())
@@ -253,25 +302,39 @@
                         });
                     },
                     onEachFeature: function(feature, layer) {
-                        const props = feature.properties;
-                        const popupContent = `
-                            Category: ${props.category || 'N/A'}<br>
-                            Comment: ${props.comment || 'N/A'}<br>
-                            <a href="${props.google_maps_url}" target="_blank">View on Google Maps</a>
-                        `;
-                        layer.bindPopup(popupContent);
+                      const props = feature.properties || {};
+                      const parts = [];
+                      parts.push(`Category: ${props.category || 'N/A'}`);
+                      if (props.date) {
+                        parts.push(`Date: ${props.date}`);
+                      }
+                      if (props.comment) {
+                        parts.push(`Comment: ${props.comment}`);
+                      }
+                      if (props.google_maps_url) {
+                        parts.push(`<a href="${props.google_maps_url}" target="_blank" rel="noopener">View on Google Maps</a>`);
+                      }
+                      const popupContent = parts.join('<br>');
+                      layer.bindPopup(popupContent);
                     }
                 }).addTo(map);
-
-                // Debug: report counts and bounds to help diagnose missing markers
-                console.log('GeoJSON features:', data.features ? data.features.length : 'no features');
-                console.log('GeoJSON layer layers:', geojsonLayer.getLayers().length);
-                console.log('GeoJSON bounds:', geojsonLayer.getBounds().toBBoxString());
-
-                // Fit map to bounds
                 map.fitBounds(geojsonLayer.getBounds(), { padding: [50, 50] });
             });
         </script>
+      </section>
+
+      <section id="calisthenics">
+        <h2>Calisthenics</h2>
+        <div class="gallery gallery--thumbs">
+          <div class="gallery-item">
+            <img src="images/cali-stack.jpg" alt="Calisthenics equipment stack" class="media-image" loading="lazy">
+            <p class="caption">Current Equipment Stack</p>
+          </div>
+          <div class="gallery-item">
+            <img src="images/cali-squat.jpg" alt="Joseph performing a squat" class="media-image" loading="lazy">
+            <p class="caption">Outdoor Calisthenics Training</p>
+          </div>
+        </div>
       </section>
 
       <section id="contact">
@@ -281,7 +344,7 @@
           <i class="fas fa-envelope"></i>
           <span>Email</span>
           </a>
-          <a href="https://x.com/TheDiractionary" class="contact-card">   <!-- UPDATE THIS -->
+          <a href="https://x.com/TheDiractionary" class="contact-card">
           <i class="fab fa-x-twitter"></i>
           <span>X</span>
           </a>
@@ -298,9 +361,8 @@
     </main>
 
     <footer>
-      <p>&copy; 2025 Joseph Brennan. All rights reserved.</p>
+      <p>&copy; 2026 Joseph Brennan. All rights reserved.</p>
     </footer>
-    <!-- Smooth scrolling for nav links and active state handling -->
     <script>
       document.querySelectorAll('nav a').forEach(link => {
         link.addEventListener('click', function() {
@@ -309,6 +371,42 @@
         });
       });
     </script>
+    <script>
+      (function(){
+        const button = document.getElementById('theme-toggle');
+        const root = document.documentElement;
+        const stored = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const initial = stored ? stored : (prefersDark ? 'dark' : 'light');
+
+        function updateButton(isLight){
+          if(isLight){
+            root.setAttribute('data-theme','light');
+            button.setAttribute('aria-pressed','true');
+            button.setAttribute('aria-label','Switch to dark theme');
+          } else {
+            root.removeAttribute('data-theme');
+            button.setAttribute('aria-pressed','false');
+            button.setAttribute('aria-label','Switch to light theme');
+          }
+          // small rotation animation trigger
+          button.setAttribute('data-rotated','true');
+          setTimeout(()=>button.removeAttribute('data-rotated'),220);
+        }
+
+        updateButton(initial === 'light');
+
+        button.addEventListener('click', function(){
+          const isLight = root.getAttribute('data-theme') === 'light';
+          if(isLight){
+            localStorage.setItem('theme','dark');
+            updateButton(false);
+          } else {
+            localStorage.setItem('theme','light');
+            updateButton(true);
+          }
+        });
+      })();
+    </script>
   </body>
-  <!--TODO: Obsidian Live Graph. Google Maps. Notion Template. -->
 </html>

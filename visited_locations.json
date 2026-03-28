@@ -27,7 +27,7 @@
       "properties": {
         "category": "Pleasure",
         "date": "2023-08-14",
-        "comment": "Friend's family in Santa Rosa."
+        "comment": "Friend's family in Santa Rosa"
       },
       "type": "Feature"
     },
@@ -42,7 +42,7 @@
       "properties": {
         "category": "Pleasure",
         "date": "2023-08-16",
-        "comment": "Surfing in San Fernando."
+        "comment": "Surfing in San Fernando"
       },
       "type": "Feature"
     },
@@ -57,7 +57,7 @@
       "properties": {
         "category": "Pleasure",
         "date": "2023-08-01",
-        "comment": "One night in Singapore."
+        "comment": "Hostel"
       },
       "type": "Feature"
     },
@@ -72,7 +72,7 @@
       "properties": {
         "category": "Pleasure",
         "date": "2023-08-08",
-        "comment": "Two nights in Hoi-An."
+        "comment": "Hostel"
       },
       "type": "Feature"
     },
@@ -87,7 +87,7 @@
       "properties": {
         "category": "Pleasure",
         "date": "2023-08-10",
-        "comment": "Two nights in Da Nang."
+        "comment": "Hostel"
       },
       "type": "Feature"
     },
@@ -102,7 +102,7 @@
       "properties": {
         "category": "Pleasure",
         "date": "2023-08-04",
-        "comment": "Three nights in Bangkok."
+        "comment": "Hostel"
       },
       "type": "Feature"
     },
@@ -117,7 +117,7 @@
       "properties": {
         "category": "Pleasure",
         "date": "2023-08-07",
-        "comment": "Before flight to Vietnam."
+        "comment": "Pre-flight Hotel"
       },
       "type": "Feature"
     },
@@ -131,7 +131,7 @@
       "properties": {
         "category": "Pleasure",
         "date": "2017-07-01",
-        "comment": "School Trip."
+        "comment": "School Trip"
       },
       "type": "Feature"
     },
@@ -146,7 +146,7 @@
       "properties": {
         "category": "Pleasure",
         "date": "2019-08-20",
-        "comment": "Friends Holiday."
+        "comment": "Friends Holiday"
       },
       "type": "Feature"
     },
@@ -161,7 +161,7 @@
       "properties": {
         "category": "Pleasure",
         "date": "2020-01-05",
-        "comment": "Final hitch-hiking destination."
+        "comment": "Race2Valencia Hitch-hiking"
       },
       "type": "Feature"
     },
@@ -175,8 +175,7 @@
       },
       "properties": {
         "category": "Family",
-        "date": "2014",
-        "comment": "A week in Paris."
+        "date": "2014"
       },
       "type": "Feature"
     },
@@ -190,8 +189,7 @@
       },
        "properties": {
         "category": "Family",
-        "date": "2014",
-        "comment": ""
+        "date": "2014"
       },
       "type": "Feature"
     },
@@ -205,8 +203,7 @@
       },
       "properties": {
         "category": "Pleasure",
-        "date": "2024-01-10",
-        "comment": "A week in Rome."
+        "date": "2024-01-10"
       },
       "type": "Feature"
     },
@@ -220,8 +217,7 @@
       },
       "properties": {
         "category": "Pleasure",
-        "date": "2023-06",
-        "comment": "Flat hunting in Bern."
+        "date": "2023-06"
       },
       "type": "Feature"
     },
@@ -235,8 +231,7 @@
       },
       "properties": {
         "category": "Calisthenics",
-        "date": "2020-01-05",
-        "comment": "Street Workout Bern."
+        "date": "2020-01-05"
       },
       "type": "Feature"
     },
@@ -250,8 +245,7 @@
       },
       "properties": {
         "category": "Family",
-        "date": "2014",
-        "comment": ""
+        "date": "2014"
       },
       "type": "Feature"
     },
@@ -266,7 +260,7 @@
        "properties": {
         "category": "Pleasure",
         "date": "2025-05",
-        "comment": "Climate hiking trip."
+        "comment": "Hiking trip, Blatten"
       },
       "type": "Feature"
     },
@@ -296,8 +290,7 @@
       },
       "properties": {
         "category": "Pleasure",
-        "date": "2024",
-        "comment": "New Year's Eve in Hohentauern"
+        "date": "2024"
       },
       "type": "Feature"
     },
@@ -311,8 +304,7 @@
       },
       "properties": {
         "category": "Pleasure",
-        "date": "2023",
-        "comment": "New Year in Hohentauern"
+        "date": "2023"
       },
       "type": "Feature"
     },
@@ -326,8 +318,7 @@
       },
       "properties": {
         "category": "Family",
-        "date": "2018",
-        "comment": ""
+        "date": "2018"
       },
       "type": "Feature"
     },
@@ -342,7 +333,7 @@
       "properties": {
         "category": "Pleasure",
         "date": "2019",
-        "comment": "Bavaria City Hostel, Füssen"
+        "comment": "Hostel, Interrailing"
       },
       "type": "Feature"
     },
@@ -357,7 +348,7 @@
       "properties": {
         "category": "Pleasure",
         "date": "2019",
-        "comment": "The Tent Munich"
+        "comment": "The Tent Munich, Interrailing"
       },
       "type": "Feature"
     },
@@ -372,7 +363,7 @@
       "properties": {
         "category": "Pleasure",
         "date": "2024",
-        "comment": "Cancelled flight."
+        "comment": "Flight cancelled"
       },
       "type": "Feature"
     },
@@ -387,13 +378,7 @@
       "properties": {
         "category": "Pleasure",
         "date": "2022",
-        "comment": "CanTrip with friends.",
-        "google_maps_url": "http://maps.google.com/?cid=1104864303118485120",
-        "location": {
-          "address": "Bližná 36, 382 23 Černá v Pošumaví-Horní Planá, Czechia",
-          "country_code": "CZ",
-          "name": "Relax Vila Lipno"
-        }
+        "google_maps_url": "http://maps.google.com/?cid=1104864303118485120"
       },
       "type": "Feature"
     },
@@ -408,7 +393,7 @@
       "properties": {
         "date": "2025",
         "category": "Calisthenics",
-        "comment": "Calisthenics in the park.",
+        "comment": "Calisthenics Park Berlin",
         "google_maps_url": "http://maps.google.com/?cid=18020328355429312999"
       },
       "type": "Feature"
@@ -440,7 +425,7 @@
       "properties": {
         "date": "2019",
         "category": "Pleasure",
-        "comment": "Interrailing",
+        "comment": "Hostel, Interrailing",
         "google_maps_url": "http://maps.google.com/?cid=7797116758419599346"
       },
       "type": "Feature"
@@ -456,7 +441,7 @@
       "properties": {
         "date": "2019",
         "category": "Pleasure",
-        "comment": "Interrailing",
+        "comment": "Hostel, Interrailing",
         "google_maps_url": "http://maps.google.com/?cid=7210158302257283850"
       },
       "type": "Feature"
@@ -472,7 +457,7 @@
       "properties": {
         "date": "2019",
         "category": "Pleasure",
-        "comment": "Camps International",
+        "comment": "Camp Osa",
         "google_maps_url": "http://maps.google.com/?cid=1770157359585516974"
       },
       "type": "Feature"
@@ -488,7 +473,7 @@
       "properties": {
         "date": "2019",
         "category": "Pleasure",
-        "comment": "Camps International",
+        "comment": "Camp Térraba",
         "google_maps_url": "http://maps.google.com/?cid=2625361110245572121"
       },
       "type": "Feature"
@@ -504,7 +489,7 @@
       "properties": {
         "date": "2019",
         "category": "Pleasure",
-        "comment": "Camps International",
+        "comment": "Camps International - Eden Community Center",
         "google_maps_url": "http://maps.google.com/?cid=4196188981102509735"
       },
       "type": "Feature"
@@ -536,7 +521,7 @@
       "properties": {
         "date": "2019",
         "category": "Pleasure",
-        "comment": "Camps International",
+        "comment": "Camp Papagayo",
         "google_maps_url": "http://maps.google.com/?cid=786473285404251886"
       },
       "type": "Feature"
@@ -552,7 +537,7 @@
       "properties": {
         "date": "2019",
         "category": "Pleasure",
-        "comment": "Camps International",
+        "comment": "Camp Caño Negro",
         "google_maps_url": "http://maps.google.com/?cid=3524135108617574862"
       },
       "type": "Feature"
@@ -560,19 +545,24 @@
     {
       "geometry": {
         "coordinates": [
-          -74.0060,
-          40.7128
+          -73.9805895,
+          40.7708731
         ],
         "type": "Point"
       },
       "properties": {
         "date": "2017",
         "category": "Pleasure",
-        "comment": "School Trip",
-        "google_maps_url": "http://maps.google.com/?q=New+York,+NY,+USA&ftid=0x89c24fa5d33f083b:0xc80b8f06e177fe62"
+        "comment": "NYC School Trip",
+        "google_maps_url": "http://maps.google.com/?cid=8977526656694740120",
+        "location": {
+          "address": "5 W 63rd St, New York, NY 10023, United States",
+          "name": "West Side YMCA"
+        }
       },
       "type": "Feature"
     },
+
     {
       "geometry": {
         "coordinates": [
@@ -583,7 +573,7 @@
       "properties": {
         "date": "2025",
         "category": "Business",
-        "comment": "Wolfram Summer Program 2025",
+        "comment": "Wolfram Summer Research Program 2025",
         "google_maps_url": "http://maps.google.com/?q=Forest+Hall,+175+Forest+St,+Waltham,+MA+02452,+USA&ftid=0x89e39d31127e2327:0x3a84d12c46937a45"
       },
       "type": "Feature"
@@ -599,7 +589,6 @@
       "properties": {
         "date": "2025",
         "category": "Pleasure",
-        "comment": "Sweden Trip",
         "google_maps_url": "http://maps.google.com/?q=%C3%96stg%C3%B6tagatan+32,+116+25+Sweden,+Sweden&ftid=0x465f77f0aa45169b:0x5d552fa4476db009"
       },
       "type": "Feature"
@@ -615,7 +604,6 @@
       "properties": {
         "date": "2025",
         "category": "Pleasure",
-        "comment": "Sweden Trip",
         "google_maps_url": "http://maps.google.com/?cid=1068104731282886477"
       },
       "type": "Feature"
@@ -631,7 +619,6 @@
       "properties": {
         "date": "2025",
         "category": "Pleasure",
-        "comment": "Sweden Trip",
         "google_maps_url": "http://maps.google.com/?cid=9544977465231796123"
       },
       "type": "Feature"
@@ -647,7 +634,7 @@
       "properties": {
         "date": "2024",
         "category": "Business",
-        "comment": "Oslo Trip",
+        "comment": "Wolfram Training - Oslo",
         "google_maps_url": "http://maps.google.com/?cid=696673284358162325"
       },
       "type": "Feature"
@@ -753,7 +740,7 @@
       "properties": {
         "date": "2020",
         "category": "Pleasure",
-        "comment": "Hiking Trip",
+        "comment": "Cairngorms Hiking Trip",
         "google_maps_url": "http://maps.google.com/?cid=3717588486736434476"
       },
       "type": "Feature"
@@ -769,7 +756,7 @@
       "properties": {
          "date": "2022",
         "category": "Pleasure",
-        "comment": "Hiking Trip",
+        "comment": "Loch Lomond Hiking Trip",
         "google_maps_url": "http://maps.google.com/?cid=8748246433945057459"
       },
       "type": "Feature"
@@ -785,7 +772,6 @@
       "properties": {
          "date": "2023",
         "category": "Pleasure",
-        "comment": "Romantic Getaway",
         "google_maps_url": "http://maps.google.com/?cid=14624643416501523678"
       },
       "type": "Feature"
@@ -801,7 +787,7 @@
       "properties": {
         "date": "2025",
         "category": "Business",
-        "comment": "Durham University Visit",
+        "comment": "Wolfram Training - Durham University",
         "google_maps_url": "http://maps.google.com/?cid=12817851349249755599"
       },
       "type": "Feature"
@@ -815,9 +801,9 @@
         "type": "Point"
       },
       "properties": {
-        "date": "2024",
+        "date": "2018",
         "category": "Education",
-        "comment": "Summer Camp",
+        "comment": "Durham University - Supported Progression",
         "google_maps_url": "http://maps.google.com/?cid=6533360714529805458"
       },
       "type": "Feature"
@@ -865,7 +851,7 @@
       "properties": {
         "date": "2025",
         "category": "Business",
-        "comment": "EURO 2025",
+        "comment": "EURO 2025 Leeds",
         "google_maps_url": "http://maps.google.com/?cid=17536841800849848149"
       },
       "type": "Feature"
@@ -881,7 +867,7 @@
       "properties": {
         "date": "2025",
         "category": "Business",
-        "comment": "Before flight to Boston.",
+        "comment": "Pre-flight Hotel",
         "google_maps_url": "http://maps.google.com/?cid=3357805190063158215"
       },
       "type": "Feature"
@@ -913,7 +899,6 @@
       "properties": {
         "date": "2021",
         "category": "Business",
-        "comment": "Prime Student",
         "google_maps_url": "http://maps.google.com/?cid=8852410934303381690"
       },
       "type": "Feature"
@@ -929,7 +914,6 @@
       "properties": {
         "date": "2024",
         "category": "Family",
-        "comment": "AirBnB",
         "google_maps_url": "http://maps.google.com/?cid=3717244374109854343",
         "location": {
           "address": "Alexander Woollard c/o Alexander's of Ipsden, The Old Barn, Church Lane,, Ipsden, wallingford, nr Henley-on-Thames OX10 6AF, United Kingdom",
@@ -947,10 +931,9 @@
         "type": "Point"
       },
       "properties": {
-        "date": "2023",
         "category": "Calisthenics",
-        "comment": "",
-        "google_maps_url": "http://maps.google.com/?cid=14838246271183999142"
+        "google_maps_url": "http://maps.google.com/?cid=14838246271183999142",
+        "comment": "Sutton Courtenay Recreation Ground"
       },
       "type": "Feature"
     },
@@ -965,7 +948,6 @@
       "properties": {
         "date": "2024",
         "category": "Family",
-        "comment": "",
         "google_maps_url": "http://maps.google.com/?q=Painters+Cottage,+6+Park+St,+Hungerford+RG17+0EF&ftid=0x4876ab517b4c21f9:0xfc87f6155b0e1647"
       },
       "type": "Feature"
@@ -997,7 +979,6 @@
       "properties": {
         "date": "2024",
         "category": "Pleasure",
-        "comment": "",
         "google_maps_url": "http://maps.google.com/?cid=16253460187787012929"
       },
       "type": "Feature"
@@ -1012,8 +993,7 @@
       },
       "properties": {
         "date": "2023",
-        "category": "Family",
-        "comment": ""
+        "category": "Family"
       },
       "type": "Feature"
     },
@@ -1028,7 +1008,6 @@
       "properties": {
         "date": "2024",
         "category": "Family",
-        "comment": "",
         "google_maps_url": "http://maps.google.com/?q=23+St+Thomas+Rd,+Midsomer+Norton,+Radstock+BA3+2UT&ftid=0x48722877b248203d:0x935c5556b4b1d21b"
       },
       "type": "Feature"
@@ -1044,7 +1023,6 @@
       "properties": {
         "date": "2024",
         "category": "Pleasure",
-        "comment": "",
         "google_maps_url": "http://maps.google.com/?q=45+Ouseley+Cl,+Headington,+Oxford+OX3+0JS&ftid=0x4876c3e4ba1e588f:0xfb938f077aa27417"
       },
       "type": "Feature"
@@ -1060,7 +1038,7 @@
       "properties": {
         "date": "2018",
         "category": "Education",
-        "comment": "Science Residential",
+        "comment": "Queen's College Science Residential",
         "google_maps_url": "http://maps.google.com/?cid=15660447374667179255"
       },
       "type": "Feature"
@@ -1076,7 +1054,6 @@
       "properties": {
         "date": "2024",
         "category": "Family",
-        "comment": "AirBnB",
         "google_maps_url": "http://maps.google.com/?q=33+Abingdon+Rd,+Standlake,+Witney+OX29+7QH&ftid=0x4876cbd83616d5bf:0xc0398d6932d0ffe"      },
       "type": "Feature"
     },
@@ -1091,7 +1068,6 @@
       "properties": {
         "date": "2012",
         "category": "Family",
-        "comment": "Relative's Wedding",
         "google_maps_url": "http://maps.google.com/?cid=15013553488160959830"
       },
       "type": "Feature"
@@ -1107,7 +1083,6 @@
       "properties": {
         "date": "2024",
         "category": "Business",
-        "comment": "AirBnB",
         "google_maps_url": "http://maps.google.com/?q=230+Main+Rd,+Long+Hanborough,+Witney+OX29+8LA&ftid=0x4876cfc04c382963:0x3ad961412d2b4bea"
       },
       "type": "Feature"
@@ -1123,7 +1098,7 @@
       "properties": {
         "date": "2023",
         "category": "Family",
-        "comment": "Visiting brother in Canada",
+        "comment": "Visiting Brother",
         "google_maps_url": "https://maps.app.goo.gl/CzUyd3zCcKJ7wzxo8"
       },
       "type": "Feature"
