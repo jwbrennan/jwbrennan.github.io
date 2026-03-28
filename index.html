@@ -302,13 +302,20 @@
                         });
                     },
                     onEachFeature: function(feature, layer) {
-                        const props = feature.properties;
-                        const popupContent = `
-                            Category: ${props.category || 'N/A'}<br>
-                            Comment: ${props.comment || 'N/A'}<br>
-                            <a href="${props.google_maps_url}" target="_blank">View on Google Maps</a>
-                        `;
-                        layer.bindPopup(popupContent);
+                      const props = feature.properties || {};
+                      const parts = [];
+                      parts.push(`Category: ${props.category || 'N/A'}`);
+                      if (props.date) {
+                        parts.push(`Date: ${props.date}`);
+                      }
+                      if (props.comment) {
+                        parts.push(`Comment: ${props.comment}`);
+                      }
+                      if (props.google_maps_url) {
+                        parts.push(`<a href="${props.google_maps_url}" target="_blank" rel="noopener">View on Google Maps</a>`);
+                      }
+                      const popupContent = parts.join('<br>');
+                      layer.bindPopup(popupContent);
                     }
                 }).addTo(map);
                 map.fitBounds(geojsonLayer.getBounds(), { padding: [50, 50] });
