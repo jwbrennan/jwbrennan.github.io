@@ -80,7 +80,7 @@
     <main>
       <section id="home">
         <div class="hero">
-          <img src="images/me.png" alt="Joseph Brennan" class="profile-image" loading="lazy">
+          <img src="images/me.jpg" alt="Profile Image" class="profile-image" loading="lazy">
           <h1>Joseph Brennan</h1>
         </div>
         <p>
@@ -253,7 +253,7 @@
         <h2>Media</h2>
         <div class="gallery">
                 <div class="gallery-item">
-                    <img src="images/WSRP.png" alt="Mentor Group" class="media-image" loading="lazy">
+                    <img src="images/WSRP.png" alt="Mentee Group" class="media-image" loading="lazy">
                     <p class="caption">My mentee group at WSRP 2025 at Bentley University, MA</p>
                 </div>
         </div>
@@ -263,24 +263,18 @@
         <h2>Travel</h2>
 
         <div id="map"></div>
-
-        <!-- Leaflet JS -->
         <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
         <script>
-        // Initialize the map constrained to world bounds to prevent horizontal scrolling/wrapping
+        // Prevent horizontal scrolling/wrapping
         var map = L.map('map', {
           worldCopyJump: false,
           maxBounds: [[-90, -180], [90, 180]],
           maxBoundsViscosity: 1
         }).setView([0, 0], 2);
-
-        // Add OpenStreetMap tiles with noWrap to avoid horizontal tile repetition
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
           attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
           noWrap: true
         }).addTo(map);
-
-        // Define category colors
         const categoryColors = {
             'Business': '#000000', // Black
             'Pleasure': '#ff7f0e', // Orange
@@ -289,7 +283,6 @@
             'Calisthenics': '#c30010', // Red
             'default': '#9467bd'   // Purple for unknown categories
         };
-
         // Fetch and process GeoJSON
         fetch('visited_locations.json')
             .then(response => response.json())
@@ -319,13 +312,6 @@
                         layer.bindPopup(popupContent);
                     }
                 }).addTo(map);
-
-                // Debug: report counts and bounds to help diagnose missing markers
-                console.log('GeoJSON features:', data.features ? data.features.length : 'no features');
-                console.log('GeoJSON layer layers:', geojsonLayer.getLayers().length);
-                console.log('GeoJSON bounds:', geojsonLayer.getBounds().toBBoxString());
-
-                // Fit map to bounds
                 map.fitBounds(geojsonLayer.getBounds(), { padding: [50, 50] });
             });
         </script>
@@ -336,7 +322,7 @@
         <div class="gallery gallery--thumbs">
           <div class="gallery-item">
             <img src="images/cali-stack.jpg" alt="Calisthenics equipment stack" class="media-image" loading="lazy">
-            <p class="caption">Current equipment stack</p>
+            <p class="caption">Current Equipment Stack</p>
           </div>
           <div class="gallery-item">
             <img src="images/cali-squat.jpg" alt="Joseph performing a squat" class="media-image" loading="lazy">
@@ -371,7 +357,6 @@
     <footer>
       <p>&copy; 2026 Joseph Brennan. All rights reserved.</p>
     </footer>
-    <!-- Smooth scrolling for nav links and active state handling -->
     <script>
       document.querySelectorAll('nav a').forEach(link => {
         link.addEventListener('click', function() {
@@ -418,5 +403,4 @@
       })();
     </script>
   </body>
-  <!--TODO: Obsidian Live Graph. Google Maps. Notion Template. -->
 </html>
