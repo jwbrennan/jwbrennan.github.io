@@ -438,5 +438,21 @@
         });
       })();
     </script>
+    <script>
+      // Detect portrait-oriented images in the Media gallery and add a class
+      (function(){
+        const mediaImgs = document.querySelectorAll('#media .gallery .media-image');
+        if(!mediaImgs.length) return;
+        mediaImgs.forEach(img => {
+          if(img.complete){
+            if(img.naturalHeight > img.naturalWidth) img.classList.add('portrait');
+          } else {
+            img.addEventListener('load', function(){
+              if(img.naturalHeight > img.naturalWidth) img.classList.add('portrait');
+            });
+          }
+        });
+      })();
+    </script>
   </body>
 </html>
