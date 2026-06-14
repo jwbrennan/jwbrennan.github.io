@@ -127,7 +127,8 @@ tr:hover{ background: rgba(0,255,120,0.02) }
 }
 
 /* Responsive: 2 columns on medium viewports, 1 column on small screens */
-@media (max-width: 768px){
+/* Keep three columns for typical laptop widths; switch to two on narrower tablets */
+@media (max-width: 640px){
   .gallery { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 480px){
