@@ -70,26 +70,6 @@ h3{ font-size:1.1rem; color:var(--neon); margin-bottom:10px }
   margin: 18px 0;
   padding: 18px 14px 14px 18px;
   color: var(--muted);
-  /* Flexbox gallery layout */
-  .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
-    margin: 30px 0;
-  }
-  .gallery .gallery-item{
-    box-sizing: border-box;
-    /* Three equal columns by default */
-    flex: 1 1 calc(33.333% - 16.666px);
-    max-width: calc(33.333% - 16.666px);
-  }
-
-  /* Two columns on narrower screens */
-  @media (max-width: 900px){
-    .gallery .gallery-item{ flex: 1 1 calc(50% - 12.5px); max-width: calc(50% - 12.5px); }
-  }
-
-  /* Single column on small phones */
   background: rgba(0,0,0,0.15);
   border-radius: 6px;
 }
@@ -137,22 +117,38 @@ tr:hover{ background: rgba(0,255,120,0.02) }
 
 .gallery-item:hover{ transform: translateY(-6px); box-shadow: 0 18px 40px rgba(0,255,120,0.03); }
 
-/* Smaller thumbnail-style gallery (used for the calisthenics section) */
+/* Gallery: flexbox 3-column layout with correct gap math to avoid overflow */
 .gallery {
-  display: grid;
-  /* Show three items per row on typical desktop widths */
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   gap: 25px;
   margin: 30px 0;
+  align-items: flex-start;
+}
+.gallery .gallery-item{
+  box-sizing: border-box;
+  /* Three columns: subtract two gaps (2 * 25px = 50px) then divide */
+  flex: 1 1 calc((100% - 50px) / 3);
+  max-width: calc((100% - 50px) / 3);
 }
 
-/* Responsive: 2 columns on medium viewports, 1 column on small screens */
-/* Keep three columns for typical laptop widths; switch to two on narrower tablets */
-@media (max-width: 640px){
-  .gallery { grid-template-columns: repeat(2, 1fr); }
+/* Prevent gallery images from becoming excessively tall */
+.gallery .gallery-item img{
+  width: 100%;
+  height: auto;
+  max-height: 360px;
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
 }
+
+@media (max-width: 900px){
+  /* Two columns: subtract one gap (25px) then divide */
+  .gallery .gallery-item{ flex: 1 1 calc((100% - 25px) / 2); max-width: calc((100% - 25px) / 2); }
+}
+
 @media (max-width: 480px){
-  .gallery { grid-template-columns: repeat(1, 1fr); }
+  .gallery .gallery-item{ flex: 1 1 100%; max-width: 100%; }
 }
 
 .gallery--thumbs {
