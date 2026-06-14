@@ -4,6 +4,257 @@
     {
       "geometry": {
         "coordinates": [
+          25.3738341,
+          35.3334319
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2004-03-01",
+        "category": "Family",
+        "comment": "Crete Holiday",
+        "google_maps_url": "http://maps.google.com/?cid=522433662022174166",
+        "location": {
+          "address": "Ανισσαράς 700 14, Greece",
+          "country_code": "GR",
+          "name": "Knossos Royal"
+        }
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -5.0696075,
+          50.1647626
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2005-10-25",
+        "category": "Family",
+        "comment": "Cornwall Cottage",
+        "google_maps_url": "http://maps.google.com/?cid=2185841696082692000",
+        "location": {
+          "address": "37 Kersey Rd, Flushing, Falmouth TR11 5TR, United Kingdom",
+          "country_code": "GB",
+          "name": "An Chy Coth"
+        }
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2006-06-01",
+        "category": "Family",
+        "comment": "Haworth",
+        "google_maps_url": "http://maps.google.com/?q=Hole+Farm+Cottage,+Hole,+Haworth,+Keighley+BD22+8QT&ftid=0x487beebc60e7b59b:0x88608091ea6a95c2"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          11.3031616,
+          47.1946449
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2017-02-01",
+        "category": "Pleasure",
+        "comment": "School Ski Trip",
+        "google_maps_url": "http://maps.google.com/?cid=7808514616559668239",
+        "location": {
+          "address": "Axamer Lizum 2, 6094 Axams, Austria",
+          "country_code": "AT",
+          "name": "Hotel Olympia"
+        }
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -20.4010299,
+          63.8354840
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2017-07-01",
+        "category": "Pleasure",
+        "comment": "Iceland School Trip",
+        "google_maps_url": "http://maps.google.com/?cid=3621076799501308410",
+        "location": {
+          "address": "Þrúðvangur 6, 850 Hella, Iceland",
+          "country_code": "IS",
+          "name": "Stracta Hotel Mosfell"
+        }
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -21.9149666,
+          64.1431845
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2017-07-09",
+        "category": "Pleasure",
+        "comment": "Iceland School Trip",
+        "google_maps_url": "http://maps.google.com/?cid=4149700660044031030",
+        "location": {
+          "address": "Laugavegur 105, 105 Reykjavík, Iceland",
+          "country_code": "IS",
+          "name": "Hlemmur Square"
+        }
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -73.9805895,
+          40.7708731
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2017-07-11",
+        "category": "Pleasure",
+        "comment": "Iceland School Trip",
+        "google_maps_url": "http://maps.google.com/?cid=8977526656694740120",
+        "location": {
+          "address": "5 W 63rd St, New York, NY 10023, United States",
+          "name": "West Side YMCA"
+        }
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -2.825227752327919,
+          56.33032302709821
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2017-07-09",
+        "category": "Pleasure",
+        "comment": "Parents Visit St Andrews",
+        "google_maps_url": "http://maps.google.com/?q=56.33032302709821,-2.825227752327919"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+           -2.627866,
+           56.25717
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2022-01-01",
+        "category": "Pleasure",
+        "comment": "Parents Visit St Andrews",
+        "google_maps_url": "http://maps.google.com/?q=Crail&ftid=0x4886f93259ce4b11:0xa4fcf46fb998648e"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -2.6993918,
+          56.2227287
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2019-09-05",
+        "category": "Pleasure",
+        "comment": "Moving To St Andrews",
+        "google_maps_url": "http://maps.google.com/?cid=12710091602326896949",
+        "location": {
+          "address": "18 Shore St, Anstruther KY10 3EA, United Kingdom",
+          "country_code": "GB",
+          "name": "The Waterfront"
+        }
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          6.9104705,
+          45.4703283
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2011-07-01",
+        "category": "Family",
+        "comment": "Tignes Holiday",
+        "google_maps_url": "http://maps.google.com/?cid=7036817877493658359",
+        "location": {
+          "address": "Chem. du Glattier, 73320 Tignes, France",
+          "country_code": "FR",
+          "name": "Les Bleuets"
+        }
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -5.0633112,
+          56.8725457
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2012-01-01",
+        "category": "Family",
+        "comment": "Fort William Holiday",
+        "google_maps_url": "http://maps.google.com/?cid=9653626977723570819",
+        "location": {
+          "address": "Muirshearlich, Banavie, Fort William PH33 7PB, United Kingdom",
+          "country_code": "GB",
+          "name": "Torbeag House"
+        }
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "category": "Calisthenics",
+        "comment": "Tree in Brize Norton",
+        "google_maps_url": "http://maps.google.com/?q=51.763588999999996,-1.5669069999999998"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -1.6383097,
           51.8078437
         ],
@@ -12,6 +263,7 @@
       "properties": {
         "date": "2012-01-01",
         "category": "Family",
+        "comment": "Family Wedding",
         "google_maps_url": "http://maps.google.com/?cid=15013553488160959830"
       },
       "type": "Feature"
@@ -25,8 +277,10 @@
         "type": "Point"
       },
       "properties": {
+        "date": "2014-01-01",
         "category": "Family",
-        "date": "2014-01-01"
+        "comment": "Paris Trip",
+        "google_maps_url": "https://maps.app.goo.gl/nxDh7gPBg6Lr9Bnu6"
       },
       "type": "Feature"
     },
@@ -39,22 +293,10 @@
         "type": "Point"
       },
       "properties": {
+        "date": "2014-01-01",
         "category": "Family",
-        "date": "2014-01-01"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          6.7088016320736505,
-          46.17920002983131
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "category": "Family",
-        "date": "2014-01-01"
+        "comment": "Morzine Holiday",
+        "google_maps_url": "https://maps.app.goo.gl/Bs7Smo9xtCQL47129"
       },
       "type": "Feature"
     },
@@ -101,7 +343,7 @@
       "properties": {
         "category": "Pleasure",
         "date": "2017-07-01",
-        "comment": "School Trip"
+        "comment": "IcelandSchool Trip"
       },
       "type": "Feature"
     },
@@ -1109,6 +1351,22 @@
     },
     {
       "geometry": {
+        "coordinates": [ 
+          -0.356666,
+          51.731985
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2025-09-29",
+        "category": "Family",
+        "comment": "Airbnb Stay",
+        "google_maps_url": "http://maps.google.com/?q=139+Watford+Rd,+St+Albans+AL2+3JY&ftid=0x48763f7330ab92af:0xa79b14cdb0748895"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
         "coordinates": [
           -0.4092370,
           53.7234492
@@ -1116,7 +1374,7 @@
         "type": "Point"
       },
       "properties": {
-        "date": "2026-04-21T19:47:35Z",
+        "date": "2026-04-21",
         "category": "Business",
         "comment": "Wolfram Training - University of Hull",
         "google_maps_url": "http://maps.google.com/?cid=15182334227834919033",
@@ -1137,7 +1395,7 @@
         "type": "Point"
       },
       "properties": {
-        "date": "2026-04-22T16:55:47Z",
+        "date": "2026-04-22",
         "category": "Business",
         "comment": "Wolfram Training - University of Manchester",
         "google_maps_url": "http://maps.google.com/?cid=8787016366455768066",
@@ -1174,7 +1432,7 @@
         "type": "Point"
       },
       "properties": {
-        "date": "2026-05-01T16:51:03Z",
+        "date": "2026-05-01",
         "category": "Pleasure",
         "comment": "Bike-Packing 2026",
         "google_maps_url": "http://maps.google.com/?q=141+Rue+de+Coulmiers,+44000+Nantes,+France&ftid=0x4805ee94f402dc4b:0xd37248c1bc14d795"
@@ -1190,7 +1448,7 @@
         "type": "Point"
       },
       "properties": {
-        "date": "2026-05-01T20:12:29Z",
+        "date": "2026-05-02",
         "category": "Pleasure",
         "comment": "Bike-Packing 2026",
         "google_maps_url": "http://maps.google.com/?q=16+Bis+Cr+Voltaire,+17440+Aytr%C3%A9,+France&ftid=0x4801523154b68233:0x355c9a44b6449482"
@@ -1206,7 +1464,7 @@
         "type": "Point"
       },
       "properties": {
-        "date": "2026-05-01T21:21:32Z",
+        "date": "2026-05-03",
         "category": "Pleasure",
         "comment": "Bike-Packing 2026",
         "google_maps_url": "http://maps.google.com/?q=10+Rue+des+Fontaines,+33112+Saint-Laurent-M%C3%A9doc,+France&ftid=0x4801c4b37511e875:0xac04473ad573793a"
@@ -1222,7 +1480,7 @@
         "type": "Point"
       },
       "properties": {
-        "date": "2026-05-03T19:45:27Z",
+        "date": "2026-05-04",
         "category": "Pleasure",
         "comment": "Bike-Packing 2026",
         "google_maps_url": "http://maps.google.com/?q=47+Bd+de+la+Mer,+64600+Anglet,+France&ftid=0xd516aea3d146e67:0x1d4c9873544bd80f"
@@ -1238,7 +1496,7 @@
         "type": "Point"
       },
       "properties": {
-        "date": "2026-05-03T19:48:06Z",
+        "date": "2026-05-05",
         "category": "Pleasure",
         "comment": "Bike-Packing 2026",
         "google_maps_url": "http://maps.google.com/?q=Bergara+Kalea,+10,+48280+Lekeitio,+Bizkaia,+Spain&ftid=0xd4e26d932a81527:0xe082d19b6857135c"
@@ -1254,7 +1512,7 @@
         "type": "Point"
       },
       "properties": {
-        "date": "2026-05-09T10:41:54Z",
+        "date": "2026-05-06",
         "category": "Pleasure",
         "comment": "Bike-Packing 2026",
         "google_maps_url": "http://maps.google.com/?q=Av.+la+Victoria,+19,+39770+Laredo,+Cantabria,+Spain&ftid=0xd4ec06ea7703d7d:0x66d271772c0cdac4"
